@@ -1,0 +1,232 @@
+#AREA
+Devil's Silence Resurrected~
+DSR Training Hall~
+0 110
+Kyle~
+889000 89099
+#
+
+/* =========================================================================
+   dummies.are — Training Hall
+   Vnum range: 889000–89099 (rooms), 889001–889004 (mobs)
+
+   Location: south from room 33100 (Guildmaster Hall, Solennir).
+   A straight south corridor under the guild hall, one dummy per chamber.
+   Each dummy isolates a single defensive stat — no mixed profiles.
+
+   Layout:
+     33100 Guildmaster Hall
+       | (new south exit — added by patch_add_dummies_area.py)
+     89000 The South Hall          (entry hub)
+       |
+     89001 The Resilience Chamber  (Hit Pillow   — 100k HP, no offense)
+       |
+     89002 The Bulwark Chamber     (Iron Maiden  — AC -1000)
+       |
+     89003 The Warded Chamber      (Warded One   — saves -200 all)
+       |
+     89004 The Arena Chamber       (The Slammer  — hitroll/damroll +100)
+
+   All dummies: ACT_NOEXP ACT_NOLOOT ACT_SENTINEL. Reset each area tick.
+   ========================================================================= */
+
+#ROOMS
+
+#89000
+The South Hall~
+   A wide stone corridor descends south beneath the Guildmaster Hall above.
+Torchlight flickers from iron sconces along the walls. The air is cool and
+quiet — a place built for discipline, not glory. Archways to the south lead
+deeper into the training chambers.~
+dummies~
+0 0
+D0
+~
+~
+0 0 33100
+D2
+~
+~
+0 0 89001
+S
+
+#89001
+The Resilience Chamber~
+   A circular chamber hewn from dark stone, its walls reinforced with thick
+iron bands. A massive training construct stands at the center, built to
+absorb punishment without complaint. Fighters come here to measure their
+raw output — nothing more, nothing less.~
+dummies~
+0 0
+D0
+~
+~
+0 0 89000
+D2
+~
+~
+0 0 89002
+S
+
+#89002
+The Bulwark Chamber~
+   The walls here are lined with layered plates of blackened steel, a tribute
+to the art of armoring. A training construct in full plate stands motionless
+at the center, its surface barely marked despite years of use. If your
+strikes cannot find purchase here, your weapon skill needs work.~
+dummies~
+0 0
+D0
+~
+~
+0 0 89001
+D2
+~
+~
+0 0 89003
+S
+
+#89003
+The Warded Chamber~
+   Strange sigils are carved into every surface of this chamber — runes of
+warding, deflection, and resistance. A construct stands at the center, its
+form suffused with a faint shimmer. Spells and debuffs that would floor a
+lesser target barely register here. This is where casters learn what saves
+actually mean.~
+dummies~
+0 0
+D0
+~
+~
+0 0 89002
+D2
+~
+~
+0 0 89004
+S
+
+#89004
+The Arena Chamber~
+   The southernmost chamber is larger than the rest, its floor stained dark
+from countless beatings. A construct stands here that hits back — hard.
+Fighters who survive it come away with a clear understanding of how much
+their defensive skills are actually doing.~
+dummies~
+0 0
+D0
+~
+~
+0 0 89003
+S
+
+#0
+
+#MOBILES
+
+/* -------------------------------------------------------------------------
+   NOTE FOR CODE:
+   Verify these stat line formats against an existing DS .are mobile.
+   ROM .are mobile format varies between derivatives. In particular:
+     - hp_dice format (XdY+Z vs flat +N)
+     - saves line (some DS mobs use extended stat blocks)
+     - act/aff flags — confirm ACT_NOEXP, ACT_NOLOOT, ACT_SENTINEL values
+       from merc.h before trusting the numbers below.
+   Reference: grep for a known working mob in solennir.are or midgaard.are
+   and mirror the format exactly.
+   ------------------------------------------------------------------------- */
+
+#89001
+the hit pillow~
+The Hit Pillow~
+A massive reinforced training construct stands here, awaiting punishment.~
+   It is an enormous padded construct, built from layers of hardened leather
+and rope, reinforced at its core with iron. It shows no signs of aggression
+and no signs of wear despite clearly having absorbed tremendous punishment.
+A plaque at its base reads: 'Measure your output here.'~
+dummies~
+/* act_flags: SENTINEL(2) + NOEXP(?) + NOLOOT(?) — verify from merc.h */
+8194 0 0 N
+/* level hitroll AC hp */
+101 0 100 0d0+100000 0d0+0
+/* damage dice damtype */
+0d0+0 0
+/* position_start position_default gold exp */
+8 8 0 0
+human~
+
+#89002
+the iron maiden~
+The Iron Maiden~
+A training construct encased in layered blackened plate stands here.~
+   It is a training construct armored in overlapping plates of blackened
+steel, each layer fitted tightly against the last. It moves only slightly
+when struck, absorbing the blow through sheer density of armor. A plaque
+reads: 'If you cannot hit this, your weapon skill needs work.'~
+dummies~
+8194 0 0 N
+/* level hitroll AC(−1000 = very high armor) hp */
+101 5 -1000 0d0+10000 0d0+0
+/* hits back lightly */
+1d4+2 0
+8 8 0 0
+human~
+
+#89003
+the warded one~
+The Warded One~
+A shimmerering training construct stands here, wreathed in protective sigils.~
+   It is a training construct covered in faintly glowing runes of warding
+and deflection. Spells and debuffs seem to slide off its surface, diffused
+by the layered magical resistance etched into its form. A plaque reads:
+'If your debuffs fail here, the target's saves are beating you.'~
+dummies~
+8194 0 0 N
+/* level hitroll AC hp — saves handled via extended stat block if DS supports */
+101 5 0 0d0+10000 0d0+0
+/* hits back lightly */
+1d4+2 0
+8 8 0 0
+human~
+
+#89004
+the slammer~
+The Slammer~
+A brutish training construct looms here, its fists the size of anvils.~
+   It is an enormous training construct built for one purpose: hitting as
+hard as possible. Its strikes land with crushing precision, designed to
+stress-test every defensive skill in the game. Fighters who survive a
+session with it know exactly what their parry, dodge, and shield block
+are worth. A plaque reads: 'Survive this. Then talk.'~
+dummies~
+8194 0 0 N
+/* level hitroll(+100) AC hp */
+101 100 0 0d0+10000 0d0+0
+/* damroll+100 reflected here — verify damroll field position */
+8d10+100 0
+8 8 0 0
+human~
+
+#0
+
+#OBJECTS
+/* No objects in this area */
+#0
+
+#RESETS
+/* Load each dummy into its room on area tick */
+/* Format: M 0 <mob_vnum> <max_in_area> <room_vnum> */
+M 0 89001 1 89001
+M 0 89002 1 89002
+M 0 89003 1 89003
+M 0 89004 1 89004
+S
+
+#SHOPS
+/* No shops */
+#0
+
+#SPECIALS
+/* No special functions */
+S
+
+#$

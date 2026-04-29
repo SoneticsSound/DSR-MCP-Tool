@@ -1,0 +1,8579 @@
+{
+  "do_functions": {
+    "do_delet": {
+      "file": "act_comm.c",
+      "line": 94
+    },
+    "do_delete": {
+      "file": "act_comm.c",
+      "line": 102
+    },
+    "do_rerol": {
+      "file": "act_comm.c",
+      "line": 186
+    },
+    "do_remort": {
+      "file": "act_comm.c",
+      "line": 194
+    },
+    "do_reroll": {
+      "file": "act_comm.c",
+      "line": 310
+    },
+    "do_build": {
+      "file": "act_comm.c",
+      "line": 433
+    },
+    "do_afk": {
+      "file": "act_comm.c",
+      "line": 451
+    },
+    "do_autostore": {
+      "file": "act_comm.c",
+      "line": 486
+    },
+    "do_replay": {
+      "file": "act_comm.c",
+      "line": 503
+    },
+    "do_nohint": {
+      "file": "act_comm.c",
+      "line": 553
+    },
+    "do_say": {
+      "file": "act_comm.c",
+      "line": 639
+    },
+    "do_shout": {
+      "file": "act_comm.c",
+      "line": 687
+    },
+    "do_tell": {
+      "file": "act_comm.c",
+      "line": 766
+    },
+    "do_reply": {
+      "file": "act_comm.c",
+      "line": 977
+    },
+    "do_chat": {
+      "file": "act_comm.c",
+      "line": 1017
+    },
+    "do_noreply": {
+      "file": "act_comm.c",
+      "line": 1081
+    },
+    "do_yell": {
+      "file": "act_comm.c",
+      "line": 1107
+    },
+    "do_emote": {
+      "file": "act_comm.c",
+      "line": 1158
+    },
+    "do_pmote": {
+      "file": "act_comm.c",
+      "line": 1174
+    },
+    "do_pose": {
+      "file": "act_comm.c",
+      "line": 1254
+    },
+    "do_rent": {
+      "file": "act_comm.c",
+      "line": 1284
+    },
+    "do_qui": {
+      "file": "act_comm.c",
+      "line": 1293
+    },
+    "do_quit": {
+      "file": "act_comm.c",
+      "line": 1302
+    },
+    "do_save": {
+      "file": "act_comm.c",
+      "line": 1455
+    },
+    "do_follow": {
+      "file": "act_comm.c",
+      "line": 1491
+    },
+    "do_order": {
+      "file": "act_comm.c",
+      "line": 1685
+    },
+    "do_group": {
+      "file": "act_comm.c",
+      "line": 1858
+    },
+    "do_split": {
+      "file": "act_comm.c",
+      "line": 2045
+    },
+    "do_gtell": {
+      "file": "act_comm.c",
+      "line": 2208
+    },
+    "do_colour": {
+      "file": "act_comm.c",
+      "line": 2278
+    },
+    "do_bounty": {
+      "file": "act_comm.c",
+      "line": 2406
+    },
+    "do_peek": {
+      "file": "act_info.c",
+      "line": 972
+    },
+    "do_scroll": {
+      "file": "act_info.c",
+      "line": 1048
+    },
+    "do_socials": {
+      "file": "act_info.c",
+      "line": 1098
+    },
+    "do_motd": {
+      "file": "act_info.c",
+      "line": 1124
+    },
+    "do_imotd": {
+      "file": "act_info.c",
+      "line": 1132
+    },
+    "do_rules": {
+      "file": "act_info.c",
+      "line": 1140
+    },
+    "do_story": {
+      "file": "act_info.c",
+      "line": 1148
+    },
+    "do_autolist": {
+      "file": "act_info.c",
+      "line": 1158
+    },
+    "do_autoall": {
+      "file": "act_info.c",
+      "line": 1224
+    },
+    "do_autoassist": {
+      "file": "act_info.c",
+      "line": 1243
+    },
+    "do_autoexit": {
+      "file": "act_info.c",
+      "line": 1263
+    },
+    "do_autogold": {
+      "file": "act_info.c",
+      "line": 1283
+    },
+    "do_autoloot": {
+      "file": "act_info.c",
+      "line": 1303
+    },
+    "do_autosac": {
+      "file": "act_info.c",
+      "line": 1323
+    },
+    "do_autosplit": {
+      "file": "act_info.c",
+      "line": 1343
+    },
+    "do_autopeek": {
+      "file": "act_info.c",
+      "line": 1363
+    },
+    "do_brief": {
+      "file": "act_info.c",
+      "line": 1383
+    },
+    "do_compact": {
+      "file": "act_info.c",
+      "line": 1400
+    },
+    "do_long": {
+      "file": "act_info.c",
+      "line": 1417
+    },
+    "do_show": {
+      "file": "act_info.c",
+      "line": 1434
+    },
+    "do_prompt": {
+      "file": "act_info.c",
+      "line": 1451
+    },
+    "do_combine": {
+      "file": "act_info.c",
+      "line": 1492
+    },
+    "do_notransport": {
+      "file": "act_info.c",
+      "line": 1509
+    },
+    "do_noloot": {
+      "file": "act_info.c",
+      "line": 1530
+    },
+    "do_nofollow": {
+      "file": "act_info.c",
+      "line": 1550
+    },
+    "do_nosummon": {
+      "file": "act_info.c",
+      "line": 1578
+    },
+    "do_nocancel": {
+      "file": "act_info.c",
+      "line": 1611
+    },
+    "do_look": {
+      "file": "act_info.c",
+      "line": 1700
+    },
+    "do_read": {
+      "file": "act_info.c",
+      "line": 2005
+    },
+    "do_examine": {
+      "file": "act_info.c",
+      "line": 2013
+    },
+    "do_exits": {
+      "file": "act_info.c",
+      "line": 2098
+    },
+    "do_worth": {
+      "file": "act_info.c",
+      "line": 2224
+    },
+    "do_warstat": {
+      "file": "act_info.c",
+      "line": 2258
+    },
+    "do_score": {
+      "file": "act_info.c",
+      "line": 3466
+    },
+    "do_score2": {
+      "file": "act_info.c",
+      "line": 2582
+    },
+    "do_score3": {
+      "file": "act_info.c",
+      "line": 2803
+    },
+    "do_score4": {
+      "file": "act_info.c",
+      "line": 3024
+    },
+    "do_score5": {
+      "file": "act_info.c",
+      "line": 3245
+    },
+    "do_affects": {
+      "file": "act_info.c",
+      "line": 3687
+    },
+    "do_time": {
+      "file": "act_info.c",
+      "line": 3804
+    },
+    "do_weather": {
+      "file": "act_info.c",
+      "line": 3840
+    },
+    "do_index": {
+      "file": "act_info.c",
+      "line": 3872
+    },
+    "do_help": {
+      "file": "act_info.c",
+      "line": 3942
+    },
+    "do_whois": {
+      "file": "act_info.c",
+      "line": 3992
+    },
+    "do_who": {
+      "file": "act_info.c",
+      "line": 4322
+    },
+    "do_zwho": {
+      "file": "act_info.c",
+      "line": 4715
+    },
+    "do_count": {
+      "file": "act_info.c",
+      "line": 4859
+    },
+    "do_inventory": {
+      "file": "act_info.c",
+      "line": 4903
+    },
+    "do_equipment": {
+      "file": "act_info.c",
+      "line": 4918
+    },
+    "do_compare": {
+      "file": "act_info.c",
+      "line": 4953
+    },
+    "do_credits": {
+      "file": "act_info.c",
+      "line": 5072
+    },
+    "do_where": {
+      "file": "act_info.c",
+      "line": 5083
+    },
+    "do_track": {
+      "file": "act_info.c",
+      "line": 5186
+    },
+    "do_consider": {
+      "file": "act_info.c",
+      "line": 5421
+    },
+    "do_title": {
+      "file": "act_info.c",
+      "line": 5604
+    },
+    "do_description": {
+      "file": "act_info.c",
+      "line": 5649
+    },
+    "do_report": {
+      "file": "act_info.c",
+      "line": 5734
+    },
+    "do_totalkills": {
+      "file": "act_info.c",
+      "line": 5758
+    },
+    "do_wimpy": {
+      "file": "act_info.c",
+      "line": 5775
+    },
+    "do_password": {
+      "file": "act_info.c",
+      "line": 5822
+    },
+    "do_shift": {
+      "file": "act_info.c",
+      "line": 5939
+    },
+    "do_custom": {
+      "file": "act_info.c",
+      "line": 6045
+    },
+    "do_walkin": {
+      "file": "act_info.c",
+      "line": 6252
+    },
+    "do_walkout": {
+      "file": "act_info.c",
+      "line": 6307
+    },
+    "do_search": {
+      "file": "act_info.c",
+      "line": 6370
+    },
+    "do_scan": {
+      "file": "act_info.c",
+      "line": 6412
+    },
+    "do_battle": {
+      "file": "act_info.c",
+      "line": 6551
+    },
+    "do_gamestats": {
+      "file": "act_info.c",
+      "line": 6636
+    },
+    "do_slot": {
+      "file": "act_info.c",
+      "line": 6684
+    },
+    "do_complist": {
+      "file": "act_info.c",
+      "line": 6891
+    },
+    "do_confirm": {
+      "file": "act_info.c",
+      "line": 6921
+    },
+    "do_registerpk": {
+      "file": "act_info.c",
+      "line": 6951
+    },
+    "do_registerp": {
+      "file": "act_info.c",
+      "line": 6991
+    },
+    "do_dice": {
+      "file": "act_info.c",
+      "line": 7003
+    },
+    "do_sprint": {
+      "file": "act_move.c",
+      "line": 728
+    },
+    "do_north": {
+      "file": "act_move.c",
+      "line": 787
+    },
+    "do_east": {
+      "file": "act_move.c",
+      "line": 802
+    },
+    "do_south": {
+      "file": "act_move.c",
+      "line": 817
+    },
+    "do_west": {
+      "file": "act_move.c",
+      "line": 833
+    },
+    "do_up": {
+      "file": "act_move.c",
+      "line": 850
+    },
+    "do_down": {
+      "file": "act_move.c",
+      "line": 866
+    },
+    "do_enter": {
+      "file": "act_move.c",
+      "line": 942
+    },
+    "do_open": {
+      "file": "act_move.c",
+      "line": 1120
+    },
+    "do_close": {
+      "file": "act_move.c",
+      "line": 1263
+    },
+    "do_lock": {
+      "file": "act_move.c",
+      "line": 1416
+    },
+    "do_unlock": {
+      "file": "act_move.c",
+      "line": 1527
+    },
+    "do_pick": {
+      "file": "act_move.c",
+      "line": 1637
+    },
+    "do_doorbash": {
+      "file": "act_move.c",
+      "line": 1776
+    },
+    "do_stand": {
+      "file": "act_move.c",
+      "line": 1841
+    },
+    "do_rest": {
+      "file": "act_move.c",
+      "line": 1967
+    },
+    "do_sit": {
+      "file": "act_move.c",
+      "line": 2111
+    },
+    "do_sleep": {
+      "file": "act_move.c",
+      "line": 2244
+    },
+    "do_wake": {
+      "file": "act_move.c",
+      "line": 2328
+    },
+    "do_sneak": {
+      "file": "act_move.c",
+      "line": 2358
+    },
+    "do_whispering_wind": {
+      "file": "act_move.c",
+      "line": 2398
+    },
+    "do_the_quiet_mind": {
+      "file": "act_move.c",
+      "line": 2440
+    },
+    "do_shadow_walk": {
+      "file": "act_move.c",
+      "line": 2474
+    },
+    "do_hide": {
+      "file": "act_move.c",
+      "line": 2553
+    },
+    "do_camouflage": {
+      "file": "act_move.c",
+      "line": 2630
+    },
+    "do_visible": {
+      "file": "act_move.c",
+      "line": 2720
+    },
+    "do_recall": {
+      "file": "act_move.c",
+      "line": 2892
+    },
+    "do_crecall": {
+      "file": "act_move.c",
+      "line": 2982
+    },
+    "do_polymorph": {
+      "file": "act_move.c",
+      "line": 3010
+    },
+    "do_shadowstep": {
+      "file": "act_move.c",
+      "line": 3382
+    },
+    "do_transform": {
+      "file": "act_move.c",
+      "line": 3611
+    },
+    "do_push": {
+      "file": "act_move.c",
+      "line": 4176
+    },
+    "do_drag": {
+      "file": "act_move.c",
+      "line": 4348
+    },
+    "do_shroud": {
+      "file": "act_move.c",
+      "line": 4580
+    },
+    "do_heal": {
+      "file": "act_npc.c",
+      "line": 48
+    },
+    "do_curse": {
+      "file": "act_npc.c",
+      "line": 214
+    },
+    "do_repent": {
+      "file": "act_npc.c",
+      "line": 339
+    },
+    "do_buy": {
+      "file": "act_npc.c",
+      "line": 637
+    },
+    "do_list": {
+      "file": "act_npc.c",
+      "line": 937
+    },
+    "do_sell": {
+      "file": "act_npc.c",
+      "line": 1039
+    },
+    "do_value": {
+      "file": "act_npc.c",
+      "line": 1150
+    },
+    "do_recover": {
+      "file": "act_npc.c",
+      "line": 1289
+    },
+    "do_balance": {
+      "file": "act_npc.c",
+      "line": 1394
+    },
+    "do_deposit": {
+      "file": "act_npc.c",
+      "line": 1423
+    },
+    "do_withdraw": {
+      "file": "act_npc.c",
+      "line": 1527
+    },
+    "do_gain": {
+      "file": "act_npc.c",
+      "line": 1625
+    },
+    "do_practice": {
+      "file": "act_npc.c",
+      "line": 1852
+    },
+    "do_train": {
+      "file": "act_npc.c",
+      "line": 1998
+    },
+    "do_connect": {
+      "file": "act_npc.c",
+      "line": 2243
+    },
+    "do_get": {
+      "file": "act_obj.c",
+      "line": 394
+    },
+    "do_donate": {
+      "file": "act_obj.c",
+      "line": 744
+    },
+    "do_cdonate": {
+      "file": "act_obj.c",
+      "line": 849
+    },
+    "do_put": {
+      "file": "act_obj.c",
+      "line": 966
+    },
+    "do_drop": {
+      "file": "act_obj.c",
+      "line": 1303
+    },
+    "do_give": {
+      "file": "act_obj.c",
+      "line": 1549
+    },
+    "do_envenom": {
+      "file": "act_obj.c",
+      "line": 1837
+    },
+    "do_fill": {
+      "file": "act_obj.c",
+      "line": 1947
+    },
+    "do_pour": {
+      "file": "act_obj.c",
+      "line": 2041
+    },
+    "do_drink": {
+      "file": "act_obj.c",
+      "line": 2171
+    },
+    "do_restring": {
+      "file": "act_obj.c",
+      "line": 2358
+    },
+    "do_eat": {
+      "file": "act_obj.c",
+      "line": 2449
+    },
+    "do_wear": {
+      "file": "act_obj.c",
+      "line": 3201
+    },
+    "do_remove": {
+      "file": "act_obj.c",
+      "line": 3255
+    },
+    "do_sacrifice": {
+      "file": "act_obj.c",
+      "line": 3328
+    },
+    "do_destroy": {
+      "file": "act_obj.c",
+      "line": 3505
+    },
+    "do_quaff": {
+      "file": "act_obj.c",
+      "line": 3562
+    },
+    "do_recite": {
+      "file": "act_obj.c",
+      "line": 3644
+    },
+    "do_brandish": {
+      "file": "act_obj.c",
+      "line": 3739
+    },
+    "do_zap": {
+      "file": "act_obj.c",
+      "line": 3846
+    },
+    "do_steal": {
+      "file": "act_obj.c",
+      "line": 3952
+    },
+    "do_lore": {
+      "file": "act_obj.c",
+      "line": 4195
+    },
+    "do_second": {
+      "file": "act_obj.c",
+      "line": 4234
+    },
+    "do_third": {
+      "file": "act_obj.c",
+      "line": 4420
+    },
+    "do_fourth": {
+      "file": "act_obj.c",
+      "line": 4571
+    },
+    "do_claim": {
+      "file": "act_obj.c",
+      "line": 4728
+    },
+    "do_repair": {
+      "file": "act_obj.c",
+      "line": 4893
+    },
+    "do_slide": {
+      "file": "act_obj.c",
+      "line": 5003
+    },
+    "do_consume": {
+      "file": "act_obj.c",
+      "line": 5129
+    },
+    "do_offer": {
+      "file": "act_obj.c",
+      "line": 5168
+    },
+    "do_rename": {
+      "file": "act_wiz.c",
+      "line": 105
+    },
+    "do_mortify": {
+      "file": "act_wiz.c",
+      "line": 215
+    },
+    "do_shield": {
+      "file": "act_wiz.c",
+      "line": 261
+    },
+    "do_check": {
+      "file": "act_wiz.c",
+      "line": 300
+    },
+    "do_wiznet": {
+      "file": "act_wiz.c",
+      "line": 635
+    },
+    "do_iquest": {
+      "file": "act_wiz.c",
+      "line": 750
+    },
+    "do_qname": {
+      "file": "act_wiz.c",
+      "line": 905
+    },
+    "do_outfit": {
+      "file": "act_wiz.c",
+      "line": 927
+    },
+    "do_nochannels": {
+      "file": "act_wiz.c",
+      "line": 978
+    },
+    "do_smote": {
+      "file": "act_wiz.c",
+      "line": 1025
+    },
+    "do_bamfin": {
+      "file": "act_wiz.c",
+      "line": 1118
+    },
+    "do_bamfout": {
+      "file": "act_wiz.c",
+      "line": 1151
+    },
+    "do_deny": {
+      "file": "act_wiz.c",
+      "line": 1184
+    },
+    "do_wipe": {
+      "file": "act_wiz.c",
+      "line": 1229
+    },
+    "do_disconnect": {
+      "file": "act_wiz.c",
+      "line": 1275
+    },
+    "do_doof": {
+      "file": "act_wiz.c",
+      "line": 1352
+    },
+    "do_pardon": {
+      "file": "act_wiz.c",
+      "line": 1397
+    },
+    "do_echo": {
+      "file": "act_wiz.c",
+      "line": 1432
+    },
+    "do_wecho": {
+      "file": "act_wiz.c",
+      "line": 1460
+    },
+    "do_recho": {
+      "file": "act_wiz.c",
+      "line": 1482
+    },
+    "do_zecho": {
+      "file": "act_wiz.c",
+      "line": 1512
+    },
+    "do_pecho": {
+      "file": "act_wiz.c",
+      "line": 1540
+    },
+    "do_corner": {
+      "file": "act_wiz.c",
+      "line": 1590
+    },
+    "do_qrestore": {
+      "file": "act_wiz.c",
+      "line": 1612
+    },
+    "do_qtrans": {
+      "file": "act_wiz.c",
+      "line": 1650
+    },
+    "do_transfer": {
+      "file": "act_wiz.c",
+      "line": 1680
+    },
+    "do_allpeace": {
+      "file": "act_wiz.c",
+      "line": 1784
+    },
+    "do_wedpost": {
+      "file": "act_wiz.c",
+      "line": 1813
+    },
+    "do_immrecover": {
+      "file": "act_wiz.c",
+      "line": 1846
+    },
+    "do_at": {
+      "file": "act_wiz.c",
+      "line": 1933
+    },
+    "do_goto": {
+      "file": "act_wiz.c",
+      "line": 1994
+    },
+    "do_violate": {
+      "file": "act_wiz.c",
+      "line": 2105
+    },
+    "do_stat": {
+      "file": "act_wiz.c",
+      "line": 2166
+    },
+    "do_rstat": {
+      "file": "act_wiz.c",
+      "line": 2232
+    },
+    "do_ostat": {
+      "file": "act_wiz.c",
+      "line": 2720
+    },
+    "do_mstat": {
+      "file": "act_wiz.c",
+      "line": 3012
+    },
+    "do_vnum": {
+      "file": "act_wiz.c",
+      "line": 3264
+    },
+    "do_mfind": {
+      "file": "act_wiz.c",
+      "line": 3340
+    },
+    "do_ofind": {
+      "file": "act_wiz.c",
+      "line": 3399
+    },
+    "do_owhere": {
+      "file": "act_wiz.c",
+      "line": 3459
+    },
+    "do_mwhere": {
+      "file": "act_wiz.c",
+      "line": 3574
+    },
+    "do_reboo": {
+      "file": "act_wiz.c",
+      "line": 3679
+    },
+    "do_copyove": {
+      "file": "act_wiz.c",
+      "line": 3688
+    },
+    "do_reboot": {
+      "file": "act_wiz.c",
+      "line": 3748
+    },
+    "do_shutdow": {
+      "file": "act_wiz.c",
+      "line": 3801
+    },
+    "do_auto_shutdown": {
+      "file": "act_wiz.c",
+      "line": 3811
+    },
+    "do_shutdown": {
+      "file": "act_wiz.c",
+      "line": 3844
+    },
+    "do_protect": {
+      "file": "act_wiz.c",
+      "line": 3875
+    },
+    "do_snoop": {
+      "file": "act_wiz.c",
+      "line": 3909
+    },
+    "do_switch": {
+      "file": "act_wiz.c",
+      "line": 3997
+    },
+    "do_return": {
+      "file": "act_wiz.c",
+      "line": 4075
+    },
+    "do_clone": {
+      "file": "act_wiz.c",
+      "line": 4140
+    },
+    "do_load": {
+      "file": "act_wiz.c",
+      "line": 4262
+    },
+    "do_mload": {
+      "file": "act_wiz.c",
+      "line": 4305
+    },
+    "do_oload": {
+      "file": "act_wiz.c",
+      "line": 4353
+    },
+    "do_vload": {
+      "file": "act_wiz.c",
+      "line": 4435
+    },
+    "do_randplat": {
+      "file": "act_wiz.c",
+      "line": 4508
+    },
+    "do_purge": {
+      "file": "act_wiz.c",
+      "line": 4518
+    },
+    "do_avatar": {
+      "file": "act_wiz.c",
+      "line": 4603
+    },
+    "do_advance": {
+      "file": "act_wiz.c",
+      "line": 4705
+    },
+    "do_trust": {
+      "file": "act_wiz.c",
+      "line": 4808
+    },
+    "do_restore": {
+      "file": "act_wiz.c",
+      "line": 4901
+    },
+    "do_immkiss": {
+      "file": "act_wiz.c",
+      "line": 5000
+    },
+    "do_freeze": {
+      "file": "act_wiz.c",
+      "line": 5042
+    },
+    "do_norestore": {
+      "file": "act_wiz.c",
+      "line": 5098
+    },
+    "do_notitle": {
+      "file": "act_wiz.c",
+      "line": 5152
+    },
+    "do_log": {
+      "file": "act_wiz.c",
+      "line": 5206
+    },
+    "do_noemote": {
+      "file": "act_wiz.c",
+      "line": 5267
+    },
+    "do_noshout": {
+      "file": "act_wiz.c",
+      "line": 5317
+    },
+    "do_notell": {
+      "file": "act_wiz.c",
+      "line": 5371
+    },
+    "do_peace": {
+      "file": "act_wiz.c",
+      "line": 5419
+    },
+    "do_double": {
+      "file": "act_wiz.c",
+      "line": 5440
+    },
+    "do_wizlock": {
+      "file": "act_wiz.c",
+      "line": 5460
+    },
+    "do_newlock": {
+      "file": "act_wiz.c",
+      "line": 5483
+    },
+    "do_slookup": {
+      "file": "act_wiz.c",
+      "line": 5505
+    },
+    "do_set": {
+      "file": "act_wiz.c",
+      "line": 5549
+    },
+    "do_sset": {
+      "file": "act_wiz.c",
+      "line": 5596
+    },
+    "do_mset": {
+      "file": "act_wiz.c",
+      "line": 5687
+    },
+    "do_string": {
+      "file": "act_wiz.c",
+      "line": 6240
+    },
+    "do_olevel": {
+      "file": "act_wiz.c",
+      "line": 6622
+    },
+    "do_oleveltrue": {
+      "file": "act_wiz.c",
+      "line": 6706
+    },
+    "do_mlevel": {
+      "file": "act_wiz.c",
+      "line": 6793
+    },
+    "do_oset": {
+      "file": "act_wiz.c",
+      "line": 6873
+    },
+    "do_rset": {
+      "file": "act_wiz.c",
+      "line": 7111
+    },
+    "do_sockets": {
+      "file": "act_wiz.c",
+      "line": 7181
+    },
+    "do_ftick": {
+      "file": "act_wiz.c",
+      "line": 7241
+    },
+    "do_force": {
+      "file": "act_wiz.c",
+      "line": 7257
+    },
+    "do_invis": {
+      "file": "act_wiz.c",
+      "line": 7404
+    },
+    "do_incognito": {
+      "file": "act_wiz.c",
+      "line": 7473
+    },
+    "do_ghost": {
+      "file": "act_wiz.c",
+      "line": 7522
+    },
+    "do_holylight": {
+      "file": "act_wiz.c",
+      "line": 7571
+    },
+    "do_prefi": {
+      "file": "act_wiz.c",
+      "line": 7593
+    },
+    "do_prefix": {
+      "file": "act_wiz.c",
+      "line": 7602
+    },
+    "do_mquest": {
+      "file": "act_wiz.c",
+      "line": 7646
+    },
+    "do_mpoint": {
+      "file": "act_wiz.c",
+      "line": 7678
+    },
+    "do_gset": {
+      "file": "act_wiz.c",
+      "line": 7710
+    },
+    "do_swedeslap": {
+      "file": "act_wiz.c",
+      "line": 7732
+    },
+    "do_wizslap": {
+      "file": "act_wiz.c",
+      "line": 7794
+    },
+    "do_pack": {
+      "file": "act_wiz.c",
+      "line": 7851
+    },
+    "do_dupe": {
+      "file": "act_wiz.c",
+      "line": 8079
+    },
+    "do_prize": {
+      "file": "act_wiz.c",
+      "line": 8197
+    },
+    "do_spellup": {
+      "file": "act_wiz.c",
+      "line": 8476
+    },
+    "do_warn": {
+      "file": "act_wiz.c",
+      "line": 8614
+    },
+    "do_aschar": {
+      "file": "act_wiz.c",
+      "line": 8634
+    },
+    "do_globcast": {
+      "file": "act_wiz.c",
+      "line": 8710
+    },
+    "do_doublexp": {
+      "file": "act_wiz.c",
+      "line": 8761
+    },
+    "do_addaffect": {
+      "file": "act_wiz.c",
+      "line": 8804
+    },
+    "do_remaffect": {
+      "file": "act_wiz.c",
+      "line": 8949
+    },
+    "do_sequip": {
+      "file": "act_wiz.c",
+      "line": 9809
+    },
+    "do_sla": {
+      "file": "act_wiz.c",
+      "line": 9946
+    },
+    "do_slay": {
+      "file": "act_wiz.c",
+      "line": 9955
+    },
+    "do_showskill": {
+      "file": "act_wiz.c",
+      "line": 9999
+    },
+    "do_showclass": {
+      "file": "act_wiz.c",
+      "line": 10051
+    },
+    "do_slowns": {
+      "file": "act_wiz.c",
+      "line": 10106
+    },
+    "do_view": {
+      "file": "act_wiz.c",
+      "line": 10126
+    },
+    "do_noview": {
+      "file": "act_wiz.c",
+      "line": 10222
+    },
+    "do_newbiekiller": {
+      "file": "act_wiz.c",
+      "line": 10282
+    },
+    "do_qforce": {
+      "file": "act_wiz.c",
+      "line": 10336
+    },
+    "do_execute": {
+      "file": "act_wiz.c",
+      "line": 10441
+    },
+    "do_convert": {
+      "file": "act_wiz.c",
+      "line": 10608
+    },
+    "do_gwho": {
+      "file": "act_wiz.c",
+      "line": 10637
+    },
+    "do_idle": {
+      "file": "act_wiz.c",
+      "line": 10697
+    },
+    "do_noquest": {
+      "file": "act_wiz.c",
+      "line": 10720
+    },
+    "do_pokepaine": {
+      "file": "act_wiz.c",
+      "line": 10776
+    },
+    "do_dorca": {
+      "file": "act_wiz.c",
+      "line": 10910
+    },
+    "do_scatter": {
+      "file": "act_wiz.c",
+      "line": 11039
+    },
+    "do_assblow": {
+      "file": "act_wiz.c",
+      "line": 11227
+    },
+    "do_otype": {
+      "file": "act_wiz.c",
+      "line": 11347
+    },
+    "do_alia": {
+      "file": "alias.c",
+      "line": 102
+    },
+    "do_alias": {
+      "file": "alias.c",
+      "line": 111
+    },
+    "do_unalias": {
+      "file": "alias.c",
+      "line": 218
+    },
+    "do_resetarena": {
+      "file": "arena.c",
+      "line": 418
+    },
+    "do_challenge": {
+      "file": "arena.c",
+      "line": 472
+    },
+    "do_accept": {
+      "file": "arena.c",
+      "line": 547
+    },
+    "do_decline": {
+      "file": "arena.c",
+      "line": 636
+    },
+    "do_aclear": {
+      "file": "arena.c",
+      "line": 812
+    },
+    "do_abusy": {
+      "file": "arena.c",
+      "line": 847
+    },
+    "do_alock": {
+      "file": "arena.c",
+      "line": 885
+    },
+    "do_astat": {
+      "file": "arena.c",
+      "line": 923
+    },
+    "do_wager": {
+      "file": "arena.c",
+      "line": 1089
+    },
+    "do_auction": {
+      "file": "auction.c",
+      "line": 45
+    },
+    "do_ban": {
+      "file": "ban.c",
+      "line": 301
+    },
+    "do_permban": {
+      "file": "ban.c",
+      "line": 309
+    },
+    "do_allow": {
+      "file": "ban.c",
+      "line": 317
+    },
+    "do_channels": {
+      "file": "chan.c",
+      "line": 178
+    },
+    "do_deaf": {
+      "file": "chan.c",
+      "line": 283
+    },
+    "do_arena": {
+      "file": "chan.c",
+      "line": 300
+    },
+    "do_nowar": {
+      "file": "chan.c",
+      "line": 320
+    },
+    "do_quiet": {
+      "file": "chan.c",
+      "line": 337
+    },
+    "do_barter": {
+      "file": "chan.c",
+      "line": 459
+    },
+    "do_ic": {
+      "file": "chan.c",
+      "line": 482
+    },
+    "do_ooc": {
+      "file": "chan.c",
+      "line": 507
+    },
+    "do_newbie": {
+      "file": "chan.c",
+      "line": 530
+    },
+    "do_qgossip": {
+      "file": "chan.c",
+      "line": 558
+    },
+    "do_grats": {
+      "file": "chan.c",
+      "line": 587
+    },
+    "do_quote": {
+      "file": "chan.c",
+      "line": 610
+    },
+    "do_ask": {
+      "file": "chan.c",
+      "line": 633
+    },
+    "do_answer": {
+      "file": "chan.c",
+      "line": 656
+    },
+    "do_music": {
+      "file": "chan.c",
+      "line": 679
+    },
+    "do_flame": {
+      "file": "chan.c",
+      "line": 702
+    },
+    "do_clantalk": {
+      "file": "chan.c",
+      "line": 725
+    },
+    "do_racetalk": {
+      "file": "chan.c",
+      "line": 764
+    },
+    "do_classtalk": {
+      "file": "chan.c",
+      "line": 790
+    },
+    "do_herotalk": {
+      "file": "chan.c",
+      "line": 816
+    },
+    "do_exectalk": {
+      "file": "chan.c",
+      "line": 879
+    },
+    "do_neetotalk": {
+      "file": "chan.c",
+      "line": 905
+    },
+    "do_cooltalk": {
+      "file": "chan.c",
+      "line": 930
+    },
+    "do_immtalk": {
+      "file": "chan.c",
+      "line": 955
+    },
+    "do_olc": {
+      "file": "chan.c",
+      "line": 1000
+    },
+    "do_leveltalk": {
+      "file": "chan.c",
+      "line": 1039
+    },
+    "do_clead": {
+      "file": "newclan.c",
+      "line": 689
+    },
+    "do_guild": {
+      "file": "newclan.c",
+      "line": 734
+    },
+    "do_member": {
+      "file": "newclan.c",
+      "line": 340
+    },
+    "do_clanlist": {
+      "file": "newclan.c",
+      "line": 513
+    },
+    "do_noclan": {
+      "file": "newclan.c",
+      "line": 556
+    },
+    "do_roster": {
+      "file": "newclan.c",
+      "line": 616
+    },
+    "do_penance": {
+      "file": "newclan.c",
+      "line": 666
+    },
+    "do_areas": {
+      "file": "db.c",
+      "line": 1464
+    },
+    "do_memory": {
+      "file": "db.c",
+      "line": 1510
+    },
+    "do_mobdump": {
+      "file": "db.c",
+      "line": 1539
+    },
+    "do_dump": {
+      "file": "db.c",
+      "line": 1602
+    },
+    "do_asave": {
+      "file": "db_new.c",
+      "line": 455
+    },
+    "do_dopple": {
+      "file": "dopple.c",
+      "line": 621
+    },
+    "do_talents": {
+      "file": "dopple.c",
+      "line": 1238
+    },
+    "do_chameleon": {
+      "file": "dopple.c",
+      "line": 1375
+    },
+    "do_form": {
+      "file": "dopple.c",
+      "line": 1466
+    },
+    "do_grow": {
+      "file": "dopple.c",
+      "line": 1668
+    },
+    "do_pbite": {
+      "file": "dopple.c",
+      "line": 2116
+    },
+    "do_banzai": {
+      "file": "dopple.c",
+      "line": 2184
+    },
+    "do_devour": {
+      "file": "dopple.c",
+      "line": 2279
+    },
+    "do_trash": {
+      "file": "dopple.c",
+      "line": 2336
+    },
+    "do_cutpurse": {
+      "file": "dopple.c",
+      "line": 2374
+    },
+    "do_sweep": {
+      "file": "dopple.c",
+      "line": 2424
+    },
+    "do_finger": {
+      "file": "finger.c",
+      "line": 39
+    },
+    "do_flag": {
+      "file": "flags.c",
+      "line": 35
+    },
+    "do_forget": {
+      "file": "forget.c",
+      "line": 34
+    },
+    "do_remembe": {
+      "file": "forget.c",
+      "line": 138
+    },
+    "do_remember": {
+      "file": "forget.c",
+      "line": 144
+    },
+    "do_grant": {
+      "file": "grant.c",
+      "line": 241
+    },
+    "do_revoke": {
+      "file": "grant.c",
+      "line": 387
+    },
+    "do_function": {
+      "file": "interp.c",
+      "line": 883
+    },
+    "do_commands": {
+      "file": "interp.c",
+      "line": 1036
+    },
+    "do_wizhelp": {
+      "file": "interp.c",
+      "line": 1069
+    },
+    "do_disabl": {
+      "file": "interp.c",
+      "line": 1113
+    },
+    "do_disable": {
+      "file": "interp.c",
+      "line": 1119
+    },
+    "do_dcreate": {
+      "file": "item_drop.c",
+      "line": 1515
+    },
+    "do_cast": {
+      "file": "magic.c",
+      "line": 551
+    },
+    "do_mudstat": {
+      "file": "mudstat.c",
+      "line": 14
+    },
+    "do_play": {
+      "file": "music.c",
+      "line": 196
+    },
+    "do_rank": {
+      "file": "rank.c",
+      "line": 77
+    },
+    "do_clanbalance": {
+      "file": "newclan.c",
+      "line": 1005
+    },
+    "do_clandeposit": {
+      "file": "newclan.c",
+      "line": 1072
+    },
+    "do_clanwithdraw": {
+      "file": "newclan.c",
+      "line": 1195
+    },
+    "do_alliance": {
+      "file": "newclan.c",
+      "line": 1325
+    },
+    "do_cgrant": {
+      "file": "newclan.c",
+      "line": 1574
+    },
+    "do_clanbalancewipe": {
+      "file": "newclan.c",
+      "line": 1727
+    },
+    "do_clanexile": {
+      "file": "newclan.c",
+      "line": 1773
+    },
+    "do_clanpks": {
+      "file": "newclan.c",
+      "line": 1848
+    },
+    "do_clanwar": {
+      "file": "newclan.c",
+      "line": 1980
+    },
+    "do_unread": {
+      "file": "note.c",
+      "line": 104
+    },
+    "do_note": {
+      "file": "note.c",
+      "line": 184
+    },
+    "do_idea": {
+      "file": "note.c",
+      "line": 189
+    },
+    "do_penalty": {
+      "file": "note.c",
+      "line": 194
+    },
+    "do_questinfo": {
+      "file": "note.c",
+      "line": 199
+    },
+    "do_claninfo": {
+      "file": "note.c",
+      "line": 204
+    },
+    "do_classifieds": {
+      "file": "note.c",
+      "line": 209
+    },
+    "do_immnote": {
+      "file": "note.c",
+      "line": 214
+    },
+    "do_changes": {
+      "file": "note.c",
+      "line": 218
+    },
+    "do_bithelp": {
+      "file": "olc.c",
+      "line": 700
+    },
+    "do_alist": {
+      "file": "olc.c",
+      "line": 866
+    },
+    "do_vopen": {
+      "file": "olc.c",
+      "line": 901
+    },
+    "do_alinks": {
+      "file": "olc.c",
+      "line": 950
+    },
+    "do_secset": {
+      "file": "olc.c",
+      "line": 1011
+    },
+    "do_aedit": {
+      "file": "olc_area.c",
+      "line": 60
+    },
+    "do_hedit": {
+      "file": "olc_help.c",
+      "line": 53
+    },
+    "do_medit": {
+      "file": "olc_mobile.c",
+      "line": 263
+    },
+    "do_oedit": {
+      "file": "olc_object.c",
+      "line": 104
+    },
+    "do_rsedit": {
+      "file": "olc_reset.c",
+      "line": 104
+    },
+    "do_redit": {
+      "file": "olc_room.c",
+      "line": 103
+    },
+    "do_socedit": {
+      "file": "olc_social.c",
+      "line": 55
+    },
+    "do_paradox": {
+      "file": "paradox.c",
+      "line": 70
+    },
+    "do_quest": {
+      "file": "quest.c",
+      "line": 544
+    },
+    "do_backup": {
+      "file": "save.c",
+      "line": 155
+    },
+    "do_sign": {
+      "file": "sign.c",
+      "line": 36
+    },
+    "do_spells": {
+      "file": "skills.c",
+      "line": 45
+    },
+    "do_skills": {
+      "file": "skills.c",
+      "line": 115
+    },
+    "do_groups": {
+      "file": "skills.c",
+      "line": 570
+    },
+    "do_class": {
+      "file": "skills.c",
+      "line": 649
+    },
+    "do_bind": {
+      "file": "skills.c",
+      "line": 956
+    },
+    "do_smother": {
+      "file": "skills.c",
+      "line": 1031
+    },
+    "do_brew": {
+      "file": "skills.c",
+      "line": 1091
+    },
+    "do_scribe": {
+      "file": "skills.c",
+      "line": 1308
+    },
+    "do_revert": {
+      "file": "skills.c",
+      "line": 1546
+    },
+    "do_terrify": {
+      "file": "skills.c",
+      "line": 1585
+    },
+    "do_forage": {
+      "file": "skills.c",
+      "line": 1638
+    },
+    "do_whittle": {
+      "file": "skills.c",
+      "line": 1717
+    },
+    "do_craft": {
+      "file": "skills.c",
+      "line": 1825
+    },
+    "do_vitrify": {
+      "file": "skills.c",
+      "line": 1932
+    },
+    "do_ointment": {
+      "file": "skills.c",
+      "line": 2097
+    },
+    "do_trapset": {
+      "file": "skills.c",
+      "line": 2183
+    },
+    "do_fabricate": {
+      "file": "skills.c",
+      "line": 2345
+    },
+    "do_hone": {
+      "file": "skills.c",
+      "line": 2527
+    },
+    "do_weave": {
+      "file": "skills.c",
+      "line": 2654
+    },
+    "do_excalibur": {
+      "file": "skills.c",
+      "line": 2922
+    },
+    "do_grimcleaver": {
+      "file": "skills.c",
+      "line": 2987
+    },
+    "do_agenda": {
+      "file": "todo.c",
+      "line": 255
+    },
+    "do_todo": {
+      "file": "todo.c",
+      "line": 261
+    },
+    "do_tocode": {
+      "file": "todo.c",
+      "line": 267
+    },
+    "do_changed": {
+      "file": "todo.c",
+      "line": 273
+    },
+    "do_mytodo": {
+      "file": "todo.c",
+      "line": 279
+    },
+    "do_bug": {
+      "file": "todo.c",
+      "line": 288
+    },
+    "do_typo": {
+      "file": "todo.c",
+      "line": 304
+    },
+    "do_trivia": {
+      "file": "trivia.c",
+      "line": 38
+    },
+    "do_war": {
+      "file": "war2.c",
+      "line": 26
+    },
+    "do_wartalk": {
+      "file": "war2.c",
+      "line": 501
+    }
+  },
+  "interp_commands": {
+    "north": {
+      "function": "do_north",
+      "trust": "POS_STANDING",
+      "line": 75
+    },
+    "east": {
+      "function": "do_east",
+      "trust": "POS_STANDING",
+      "line": 76
+    },
+    "south": {
+      "function": "do_south",
+      "trust": "POS_STANDING",
+      "line": 77
+    },
+    "west": {
+      "function": "do_west",
+      "trust": "POS_STANDING",
+      "line": 78
+    },
+    "up": {
+      "function": "do_up",
+      "trust": "POS_STANDING",
+      "line": 79
+    },
+    "down": {
+      "function": "do_down",
+      "trust": "POS_STANDING",
+      "line": 80
+    },
+    "sprint": {
+      "function": "do_sprint",
+      "trust": "POS_STANDING",
+      "line": 81
+    },
+    "at": {
+      "function": "do_at",
+      "trust": "POS_DEAD",
+      "line": 87
+    },
+    "cast": {
+      "function": "do_cast",
+      "trust": "POS_FIGHTING",
+      "line": 88
+    },
+    "auction": {
+      "function": "do_auction",
+      "trust": "POS_SLEEPING",
+      "line": 89
+    },
+    "barter": {
+      "function": "do_barter",
+      "trust": "POS_DEAD",
+      "line": 90
+    },
+    "buy": {
+      "function": "do_buy",
+      "trust": "POS_RESTING",
+      "line": 91
+    },
+    "channels": {
+      "function": "do_channels",
+      "trust": "POS_DEAD",
+      "line": 92
+    },
+    "exits": {
+      "function": "do_exits",
+      "trust": "POS_RESTING",
+      "line": 93
+    },
+    "get": {
+      "function": "do_get",
+      "trust": "POS_RESTING",
+      "line": 94
+    },
+    "goto": {
+      "function": "do_goto",
+      "trust": "POS_DEAD",
+      "line": 95
+    },
+    "group": {
+      "function": "do_group",
+      "trust": "POS_SLEEPING",
+      "line": 435
+    },
+    "guild": {
+      "function": "do_guild",
+      "trust": "POS_DEAD",
+      "line": 97
+    },
+    "hit": {
+      "function": "do_kill",
+      "trust": "POS_FIGHTING",
+      "line": 98
+    },
+    "inventory": {
+      "function": "do_inventory",
+      "trust": "POS_DEAD",
+      "line": 99
+    },
+    "kill": {
+      "function": "do_kill",
+      "trust": "POS_FIGHTING",
+      "line": 100
+    },
+    "look": {
+      "function": "do_look",
+      "trust": "POS_DEAD",
+      "line": 101
+    },
+    "clan": {
+      "function": "do_clantalk",
+      "trust": "POS_SLEEPING",
+      "line": 102
+    },
+    "music": {
+      "function": "do_music",
+      "trust": "POS_SLEEPING",
+      "line": 245
+    },
+    "mock": {
+      "function": "do_mock",
+      "trust": "POS_RESTING",
+      "line": 104
+    },
+    "order": {
+      "function": "do_order",
+      "trust": "POS_RESTING",
+      "line": 105
+    },
+    "practice": {
+      "function": "do_practice",
+      "trust": "POS_SLEEPING",
+      "line": 443
+    },
+    "rest": {
+      "function": "do_rest",
+      "trust": "POS_SLEEPING",
+      "line": 107
+    },
+    "rank": {
+      "function": "do_rank",
+      "trust": "POS_SLEEPING",
+      "line": 108
+    },
+    "resistance": {
+      "function": "do_resistance",
+      "trust": "POS_FIGHTING",
+      "line": 403
+    },
+    "search": {
+      "function": "do_search",
+      "trust": "POS_STANDING",
+      "line": 110
+    },
+    "sit": {
+      "function": "do_sit",
+      "trust": "POS_SLEEPING",
+      "line": 111
+    },
+    "sockets": {
+      "function": "do_sockets",
+      "trust": "POS_DEAD",
+      "line": 112
+    },
+    "stand": {
+      "function": "do_stand",
+      "trust": "POS_SLEEPING",
+      "line": 113
+    },
+    "stance": {
+      "function": "do_stance",
+      "trust": "POS_FIGHTING",
+      "line": 114
+    },
+    "dance": {
+      "function": "do_dance",
+      "trust": "POS_FIGHTING",
+      "line": 115
+    },
+    "aura": {
+      "function": "do_aura",
+      "trust": "POS_STANDING",
+      "line": 116
+    },
+    "tell": {
+      "function": "do_tell",
+      "trust": "POS_SLEEPING",
+      "line": 117
+    },
+    "unlock": {
+      "function": "do_unlock",
+      "trust": "POS_RESTING",
+      "line": 313
+    },
+    "wield": {
+      "function": "do_wear",
+      "trust": "POS_RESTING",
+      "line": 119
+    },
+    "wizhelp": {
+      "function": "do_wizhelp",
+      "trust": "POS_DEAD",
+      "line": 120
+    },
+    "wager": {
+      "function": "do_wager",
+      "trust": "POS_RESTING",
+      "line": 121
+    },
+    "affects": {
+      "function": "do_affects",
+      "trust": "POS_DEAD",
+      "line": 126
+    },
+    "agenda": {
+      "function": "do_agenda",
+      "trust": "POS_DEAD",
+      "line": 127
+    },
+    "areas": {
+      "function": "do_areas",
+      "trust": "POS_DEAD",
+      "line": 128
+    },
+    "bug": {
+      "function": "do_bug",
+      "trust": "POS_DEAD",
+      "line": 129
+    },
+    "changes": {
+      "function": "do_changes",
+      "trust": "POS_DEAD",
+      "line": 130
+    },
+    "commands": {
+      "function": "do_commands",
+      "trust": "POS_DEAD",
+      "line": 131
+    },
+    "compare": {
+      "function": "do_compare",
+      "trust": "POS_RESTING",
+      "line": 132
+    },
+    "consider": {
+      "function": "do_consider",
+      "trust": "POS_RESTING",
+      "line": 133
+    },
+    "count": {
+      "function": "do_count",
+      "trust": "POS_SLEEPING",
+      "line": 134
+    },
+    "credits": {
+      "function": "do_credits",
+      "trust": "POS_DEAD",
+      "line": 135
+    },
+    "deepbreathing": {
+      "function": "do_deepbreathing",
+      "trust": "POS_FIGHTING",
+      "line": 136
+    },
+    "equipment": {
+      "function": "do_equipment",
+      "trust": "POS_DEAD",
+      "line": 137
+    },
+    "examine": {
+      "function": "do_examine",
+      "trust": "POS_RESTING",
+      "line": 138
+    },
+    "gamestats": {
+      "function": "do_gamestats",
+      "trust": "POS_SLEEPING",
+      "line": 139
+    },
+    "clanpks": {
+      "function": "do_clanpks",
+      "trust": "POS_SLEEPING",
+      "line": 140
+    },
+    "clanwar": {
+      "function": "do_clanwar",
+      "trust": "POS_SLEEPING",
+      "line": 141
+    },
+    "hack": {
+      "function": "do_hack",
+      "trust": "POS_FIGHTING",
+      "line": 143
+    },
+    "help": {
+      "function": "do_help",
+      "trust": "POS_DEAD",
+      "line": 144
+    },
+    "idea": {
+      "function": "do_idea",
+      "trust": "POS_DEAD",
+      "line": 145
+    },
+    "index": {
+      "function": "do_index",
+      "trust": "POS_DEAD",
+      "line": 146
+    },
+    "info": {
+      "function": "do_groups",
+      "trust": "POS_SLEEPING",
+      "line": 147
+    },
+    "motd": {
+      "function": "do_motd",
+      "trust": "POS_DEAD",
+      "line": 148
+    },
+    "peek": {
+      "function": "do_peek",
+      "trust": "POS_STANDING",
+      "line": 149
+    },
+    "read": {
+      "function": "do_read",
+      "trust": "POS_RESTING",
+      "line": 150
+    },
+    "report": {
+      "function": "do_report",
+      "trust": "POS_RESTING",
+      "line": 151
+    },
+    "components": {
+      "function": "do_complist",
+      "trust": "POS_DEAD",
+      "line": 152
+    },
+    "score": {
+      "function": "do_score",
+      "trust": "POS_DEAD",
+      "line": 153
+    },
+    "score2": {
+      "function": "do_score2",
+      "trust": "POS_DEAD",
+      "line": 154
+    },
+    "score3": {
+      "function": "do_score3",
+      "trust": "POS_DEAD",
+      "line": 155
+    },
+    "score4": {
+      "function": "do_score4",
+      "trust": "POS_DEAD",
+      "line": 156
+    },
+    "score5": {
+      "function": "do_score5",
+      "trust": "POS_DEAD",
+      "line": 157
+    },
+    "rules": {
+      "function": "do_rules",
+      "trust": "POS_DEAD",
+      "line": 158
+    },
+    "scan": {
+      "function": "do_scan",
+      "trust": "POS_RESTING",
+      "line": 159
+    },
+    "skills": {
+      "function": "do_skills",
+      "trust": "POS_DEAD",
+      "line": 160
+    },
+    "socials": {
+      "function": "do_socials",
+      "trust": "POS_DEAD",
+      "line": 161
+    },
+    "show": {
+      "function": "do_show",
+      "trust": "POS_DEAD",
+      "line": 162
+    },
+    "showskill": {
+      "function": "do_showskill",
+      "trust": "POS_DEAD",
+      "line": 163
+    },
+    "showclass": {
+      "function": "do_showclass",
+      "trust": "POS_DEAD",
+      "line": 164
+    },
+    "spells": {
+      "function": "do_spells",
+      "trust": "POS_DEAD",
+      "line": 165
+    },
+    "storm": {
+      "function": "do_storm",
+      "trust": "POS_FIGHTING",
+      "line": 166
+    },
+    "story": {
+      "function": "do_story",
+      "trust": "POS_DEAD",
+      "line": 167
+    },
+    "time": {
+      "function": "do_time",
+      "trust": "POS_DEAD",
+      "line": 168
+    },
+    "todo": {
+      "function": "do_todo",
+      "trust": "POS_DEAD",
+      "line": 169
+    },
+    "mytodo": {
+      "function": "do_mytodo",
+      "trust": "POS_DEAD",
+      "line": 170
+    },
+    "tocode": {
+      "function": "do_tocode",
+      "trust": "POS_DEAD",
+      "line": 171
+    },
+    "totalkills": {
+      "function": "do_totalkills",
+      "trust": "POS_DEAD",
+      "line": 172
+    },
+    "changed": {
+      "function": "do_changed",
+      "trust": "POS_DEAD",
+      "line": 173
+    },
+    "typo": {
+      "function": "do_typo",
+      "trust": "POS_DEAD",
+      "line": 174
+    },
+    "weave": {
+      "function": "do_weave",
+      "trust": "POS_FIGHTING",
+      "line": 175
+    },
+    "weather": {
+      "function": "do_weather",
+      "trust": "POS_RESTING",
+      "line": 176
+    },
+    "who": {
+      "function": "do_who",
+      "trust": "POS_DEAD",
+      "line": 177
+    },
+    "whois": {
+      "function": "do_whois",
+      "trust": "POS_DEAD",
+      "line": 178
+    },
+    "wizlist": {
+      "function": "do_wizlist",
+      "trust": "POS_DEAD",
+      "line": 179
+    },
+    "worth": {
+      "function": "do_worth",
+      "trust": "POS_SLEEPING",
+      "line": 180
+    },
+    "balance": {
+      "function": "do_balance",
+      "trust": "POS_RESTING",
+      "line": 181
+    },
+    "deposit": {
+      "function": "do_deposit",
+      "trust": "POS_RESTING",
+      "line": 182
+    },
+    "withdraw": {
+      "function": "do_withdraw",
+      "trust": "POS_RESTING",
+      "line": 183
+    },
+    "alia": {
+      "function": "do_alia",
+      "trust": "POS_DEAD",
+      "line": 188
+    },
+    "alias": {
+      "function": "do_alias",
+      "trust": "POS_DEAD",
+      "line": 189
+    },
+    "autolist": {
+      "function": "do_autolist",
+      "trust": "POS_DEAD",
+      "line": 190
+    },
+    "autoall": {
+      "function": "do_autoall",
+      "trust": "POS_DEAD",
+      "line": 191
+    },
+    "autoassist": {
+      "function": "do_autoassist",
+      "trust": "POS_DEAD",
+      "line": 192
+    },
+    "autoexit": {
+      "function": "do_autoexit",
+      "trust": "POS_DEAD",
+      "line": 193
+    },
+    "autogold": {
+      "function": "do_autogold",
+      "trust": "POS_DEAD",
+      "line": 194
+    },
+    "autoloot": {
+      "function": "do_autoloot",
+      "trust": "POS_DEAD",
+      "line": 195
+    },
+    "autosac": {
+      "function": "do_autosac",
+      "trust": "POS_DEAD",
+      "line": 196
+    },
+    "autosplit": {
+      "function": "do_autosplit",
+      "trust": "POS_DEAD",
+      "line": 197
+    },
+    "autostore": {
+      "function": "do_autostore",
+      "trust": "POS_DEAD",
+      "line": 198
+    },
+    "autopeek": {
+      "function": "do_autopeek",
+      "trust": "POS_DEAD",
+      "line": 199
+    },
+    "brief": {
+      "function": "do_brief",
+      "trust": "POS_DEAD",
+      "line": 200
+    },
+    "colour": {
+      "function": "do_colour",
+      "trust": "POS_DEAD",
+      "line": 201
+    },
+    "color": {
+      "function": "do_colour",
+      "trust": "POS_DEAD",
+      "line": 202
+    },
+    "consent": {
+      "function": "do_consent",
+      "trust": "POS_RESTING",
+      "line": 203
+    },
+    "combine": {
+      "function": "do_combine",
+      "trust": "POS_DEAD",
+      "line": 204
+    },
+    "compact": {
+      "function": "do_compact",
+      "trust": "POS_DEAD",
+      "line": 205
+    },
+    "description": {
+      "function": "do_description",
+      "trust": "POS_DEAD",
+      "line": 206
+    },
+    "long": {
+      "function": "do_long",
+      "trust": "POS_DEAD",
+      "line": 207
+    },
+    "nofollow": {
+      "function": "do_nofollow",
+      "trust": "POS_DEAD",
+      "line": 208
+    },
+    "noloot": {
+      "function": "do_noloot",
+      "trust": "POS_DEAD",
+      "line": 209
+    },
+    "nocancel": {
+      "function": "do_nocancel",
+      "trust": "POS_DEAD",
+      "line": 210
+    },
+    "nosummon": {
+      "function": "do_nosummon",
+      "trust": "POS_DEAD",
+      "line": 211
+    },
+    "notransport": {
+      "function": "do_notransport",
+      "trust": "POS_DEAD",
+      "line": 212
+    },
+    "password": {
+      "function": "do_password",
+      "trust": "POS_DEAD",
+      "line": 213
+    },
+    "prompt": {
+      "function": "do_prompt",
+      "trust": "POS_DEAD",
+      "line": 214
+    },
+    "scroll": {
+      "function": "do_scroll",
+      "trust": "POS_DEAD",
+      "line": 215
+    },
+    "strangle": {
+      "function": "do_strangle",
+      "trust": "POS_STANDING",
+      "line": 216
+    },
+    "throw": {
+      "function": "do_throw",
+      "trust": "POS_FIGHTING",
+      "line": 217
+    },
+    "target": {
+      "function": "do_target",
+      "trust": "POS_FIGHTING",
+      "line": 412
+    },
+    "shift": {
+      "function": "do_shift",
+      "trust": "POS_DEAD",
+      "line": 219
+    },
+    "title": {
+      "function": "do_title",
+      "trust": "POS_DEAD",
+      "line": 220
+    },
+    "unalias": {
+      "function": "do_unalias",
+      "trust": "POS_DEAD",
+      "line": 221
+    },
+    "wimpy": {
+      "function": "do_wimpy",
+      "trust": "POS_DEAD",
+      "line": 222
+    },
+    "xsocials": {
+      "function": "do_xsocials",
+      "trust": "POS_DEAD",
+      "line": 223
+    },
+    "afk": {
+      "function": "do_afk",
+      "trust": "POS_SLEEPING",
+      "line": 228
+    },
+    "answer": {
+      "function": "do_answer",
+      "trust": "POS_SLEEPING",
+      "line": 229
+    },
+    "ansi": {
+      "function": "do_colour",
+      "trust": "POS_SLEEPING",
+      "line": 230
+    },
+    "chat": {
+      "function": "do_chat",
+      "trust": "POS_SLEEPING",
+      "line": 231
+    },
+    "deaf": {
+      "function": "do_deaf",
+      "trust": "POS_DEAD",
+      "line": 232
+    },
+    "build": {
+      "function": "do_build",
+      "trust": "POS_SLEEPING",
+      "line": 233
+    },
+    "emote": {
+      "function": "do_emote",
+      "trust": "POS_RESTING",
+      "line": 234
+    },
+    "pmote": {
+      "function": "do_pmote",
+      "trust": "POS_RESTING",
+      "line": 235
+    },
+    "ic": {
+      "function": "do_ic",
+      "trust": "POS_SLEEPING",
+      "line": 236
+    },
+    "flame": {
+      "function": "do_flame",
+      "trust": "POS_SLEEPING",
+      "line": 237
+    },
+    "qgossip": {
+      "function": "do_qgossip",
+      "trust": "POS_SLEEPING",
+      "line": 239
+    },
+    "grats": {
+      "function": "do_grats",
+      "trust": "POS_SLEEPING",
+      "line": 241
+    },
+    "gtell": {
+      "function": "do_gtell",
+      "trust": "POS_DEAD",
+      "line": 242
+    },
+    "note": {
+      "function": "do_note",
+      "trust": "POS_SLEEPING",
+      "line": 247
+    },
+    "pose": {
+      "function": "do_pose",
+      "trust": "POS_RESTING",
+      "line": 248
+    },
+    "quest": {
+      "function": "do_quest",
+      "trust": "POS_SLEEPING",
+      "line": 249
+    },
+    "iquest": {
+      "function": "do_iquest",
+      "trust": "POS_STANDING",
+      "line": 250
+    },
+    "questinfo": {
+      "function": "do_questinfo",
+      "trust": "POS_DEAD",
+      "line": 251
+    },
+    "ask": {
+      "function": "do_ask",
+      "trust": "POS_SLEEPING",
+      "line": 252
+    },
+    "ooc": {
+      "function": "do_ooc",
+      "trust": "POS_DEAD",
+      "line": 253
+    },
+    "psycho": {
+      "function": "do_psycho",
+      "trust": "POS_DEAD",
+      "line": 255
+    },
+    "quote": {
+      "function": "do_quote",
+      "trust": "POS_SLEEPING",
+      "line": 257
+    },
+    "quiet": {
+      "function": "do_quiet",
+      "trust": "POS_SLEEPING",
+      "line": 258
+    },
+    "reply": {
+      "function": "do_reply",
+      "trust": "POS_SLEEPING",
+      "line": 259
+    },
+    "noreply": {
+      "function": "do_noreply",
+      "trust": "POS_SLEEPING",
+      "line": 260
+    },
+    "replay": {
+      "function": "do_replay",
+      "trust": "POS_SLEEPING",
+      "line": 261
+    },
+    "say": {
+      "function": "do_say",
+      "trust": "POS_RESTING",
+      "line": 262
+    },
+    "shout": {
+      "function": "do_shout",
+      "trust": "POS_RESTING",
+      "line": 264
+    },
+    "unread": {
+      "function": "do_unread",
+      "trust": "POS_SLEEPING",
+      "line": 265
+    },
+    "claninfo": {
+      "function": "do_claninfo",
+      "trust": "POS_SLEEPING",
+      "line": 266
+    },
+    "yell": {
+      "function": "do_yell",
+      "trust": "POS_RESTING",
+      "line": 267
+    },
+    "grimcleaver": {
+      "function": "do_grimcleaver",
+      "trust": "POS_STANDING",
+      "line": 272
+    },
+    "consume": {
+      "function": "do_consume",
+      "trust": "POS_FIGHTING",
+      "line": 273
+    },
+    "connect": {
+      "function": "do_connect",
+      "trust": "POS_STANDING",
+      "line": 274
+    },
+    "slide": {
+      "function": "do_slide",
+      "trust": "POS_FIGHTING",
+      "line": 275
+    },
+    "brandish": {
+      "function": "do_brandish",
+      "trust": "POS_RESTING",
+      "line": 276
+    },
+    "close": {
+      "function": "do_close",
+      "trust": "POS_RESTING",
+      "line": 277
+    },
+    "drink": {
+      "function": "do_drink",
+      "trust": "POS_RESTING",
+      "line": 278
+    },
+    "drop": {
+      "function": "do_drop",
+      "trust": "POS_RESTING",
+      "line": 279
+    },
+    "eat": {
+      "function": "do_eat",
+      "trust": "POS_RESTING",
+      "line": 280
+    },
+    "envenom": {
+      "function": "do_envenom",
+      "trust": "POS_RESTING",
+      "line": 281
+    },
+    "fill": {
+      "function": "do_fill",
+      "trust": "POS_RESTING",
+      "line": 282
+    },
+    "give": {
+      "function": "do_give",
+      "trust": "POS_RESTING",
+      "line": 283
+    },
+    "heal": {
+      "function": "do_heal",
+      "trust": "POS_RESTING",
+      "line": 284
+    },
+    "repent": {
+      "function": "do_repent",
+      "trust": "POS_RESTING",
+      "line": 285
+    },
+    "craft": {
+      "function": "do_craft",
+      "trust": "POS_STANDING",
+      "line": 286
+    },
+    "fabricate": {
+      "function": "do_fabricate",
+      "trust": "POS_STANDING",
+      "line": 287
+    },
+    "curse": {
+      "function": "do_curse",
+      "trust": "POS_RESTING",
+      "line": 288
+    },
+    "custom": {
+      "function": "do_custom",
+      "trust": "POS_DEAD",
+      "line": 289
+    },
+    "hold": {
+      "function": "do_wear",
+      "trust": "POS_RESTING",
+      "line": 290
+    },
+    "list": {
+      "function": "do_list",
+      "trust": "POS_RESTING",
+      "line": 292
+    },
+    "lock": {
+      "function": "do_lock",
+      "trust": "POS_RESTING",
+      "line": 293
+    },
+    "open": {
+      "function": "do_open",
+      "trust": "POS_RESTING",
+      "line": 294
+    },
+    "pick": {
+      "function": "do_pick",
+      "trust": "POS_RESTING",
+      "line": 295
+    },
+    "pour": {
+      "function": "do_pour",
+      "trust": "POS_RESTING",
+      "line": 296
+    },
+    "put": {
+      "function": "do_put",
+      "trust": "POS_RESTING",
+      "line": 297
+    },
+    "quaff": {
+      "function": "do_quaff",
+      "trust": "POS_RESTING",
+      "line": 298
+    },
+    "recite": {
+      "function": "do_recite",
+      "trust": "POS_RESTING",
+      "line": 299
+    },
+    "remove": {
+      "function": "do_remove",
+      "trust": "POS_RESTING",
+      "line": 300
+    },
+    "sell": {
+      "function": "do_sell",
+      "trust": "POS_RESTING",
+      "line": 301
+    },
+    "second": {
+      "function": "do_second",
+      "trust": "POS_RESTING",
+      "line": 302
+    },
+    "third": {
+      "function": "do_third",
+      "trust": "POS_RESTING",
+      "line": 303
+    },
+    "fourth": {
+      "function": "do_fourth",
+      "trust": "POS_RESTING",
+      "line": 304
+    },
+    "take": {
+      "function": "do_get",
+      "trust": "POS_RESTING",
+      "line": 305
+    },
+    "sacrifice": {
+      "function": "do_sacrifice",
+      "trust": "POS_STANDING",
+      "line": 306
+    },
+    "destroy": {
+      "function": "do_destroy",
+      "trust": "POS_STANDING",
+      "line": 307
+    },
+    "junk": {
+      "function": "do_sacrifice",
+      "trust": "POS_STANDING",
+      "line": 308
+    },
+    "vitrify": {
+      "function": "do_vitrify",
+      "trust": "POS_STANDING",
+      "line": 309
+    },
+    "doorbash": {
+      "function": "do_doorbash",
+      "trust": "POS_STANDING",
+      "line": 310
+    },
+    "value": {
+      "function": "do_value",
+      "trust": "POS_RESTING",
+      "line": 315
+    },
+    "whittle": {
+      "function": "do_whittle",
+      "trust": "POS_STANDING",
+      "line": 316
+    },
+    "wear": {
+      "function": "do_wear",
+      "trust": "POS_RESTING",
+      "line": 317
+    },
+    "zap": {
+      "function": "do_zap",
+      "trust": "POS_RESTING",
+      "line": 318
+    },
+    "dopple": {
+      "function": "do_dopple",
+      "trust": "POS_STANDING",
+      "line": 323
+    },
+    "form": {
+      "function": "do_form",
+      "trust": "POS_RESTING",
+      "line": 324
+    },
+    "talents": {
+      "function": "do_talents",
+      "trust": "POS_DEAD",
+      "line": 325
+    },
+    "pbite": {
+      "function": "do_pbite",
+      "trust": "POS_FIGHTING",
+      "line": 326
+    },
+    "breath": {
+      "function": "do_breath",
+      "trust": "POS_FIGHTING",
+      "line": 327
+    },
+    "sweep": {
+      "function": "do_sweep",
+      "trust": "POS_FIGHTING",
+      "line": 328
+    },
+    "cutpurse": {
+      "function": "do_cutpurse",
+      "trust": "POS_FIGHTING",
+      "line": 329
+    },
+    "trash": {
+      "function": "do_trash",
+      "trust": "POS_STANDING",
+      "line": 330
+    },
+    "devour": {
+      "function": "do_devour",
+      "trust": "POS_STANDING",
+      "line": 331
+    },
+    "banzai": {
+      "function": "do_banzai",
+      "trust": "POS_STANDING",
+      "line": 332
+    },
+    "grow": {
+      "function": "do_grow",
+      "trust": "POS_FIGHTING",
+      "line": 333
+    },
+    "chameleon": {
+      "function": "do_chameleon",
+      "trust": "POS_STANDING",
+      "line": 334
+    },
+    "ironwill": {
+      "function": "do_ironwill",
+      "trust": "POS_STANDING",
+      "line": 335
+    },
+    "ointment": {
+      "function": "do_ointment",
+      "trust": "POS_FIGHTING",
+      "line": 339
+    },
+    "hurl": {
+      "function": "do_hurl",
+      "trust": "POS_FIGHTING",
+      "line": 340
+    },
+    "drag": {
+      "function": "do_drag",
+      "trust": "POS_STANDING",
+      "line": 341
+    },
+    "push": {
+      "function": "do_push",
+      "trust": "POS_STANDING",
+      "line": 342
+    },
+    "pinch": {
+      "function": "do_pinch",
+      "trust": "POS_STANDING",
+      "line": 343
+    },
+    "chi": {
+      "function": "do_chi",
+      "trust": "POS_FIGHTING",
+      "line": 344
+    },
+    "legsweep": {
+      "function": "do_legsweep",
+      "trust": "POS_FIGHTING",
+      "line": 345
+    },
+    "war": {
+      "function": "do_war",
+      "trust": "POS_STANDING",
+      "line": 348
+    },
+    "wartalk": {
+      "function": "do_wartalk",
+      "trust": "POS_STANDING",
+      "line": 349
+    },
+    "warcry": {
+      "function": "do_warcry",
+      "trust": "POS_STANDING",
+      "line": 350
+    },
+    "warpaint": {
+      "function": "do_warpaint",
+      "trust": "POS_STANDING",
+      "line": 351
+    },
+    "blackjack": {
+      "function": "do_blackjack",
+      "trust": "POS_STANDING",
+      "line": 352
+    },
+    "caltrops": {
+      "function": "do_caltrops",
+      "trust": "POS_FIGHTING",
+      "line": 353
+    },
+    "charge": {
+      "function": "do_charge",
+      "trust": "POS_FIGHTING",
+      "line": 354
+    },
+    "bastion": {
+      "function": "do_bastion",
+      "trust": "POS_FIGHTING",
+      "line": 355
+    },
+    "backstab": {
+      "function": "do_backstab",
+      "trust": "POS_FIGHTING",
+      "line": 356
+    },
+    "ambush": {
+      "function": "do_ambush",
+      "trust": "POS_DEAD",
+      "line": 357
+    },
+    "assassinate": {
+      "function": "do_assassinate",
+      "trust": "POS_STANDING",
+      "line": 358
+    },
+    "bash": {
+      "function": "do_bash",
+      "trust": "POS_FIGHTING",
+      "line": 359
+    },
+    "brew": {
+      "function": "do_brew",
+      "trust": "POS_STANDING",
+      "line": 360
+    },
+    "scribe": {
+      "function": "do_scribe",
+      "trust": "POS_STANDING",
+      "line": 361
+    },
+    "bs": {
+      "function": "do_backstab",
+      "trust": "POS_FIGHTING",
+      "line": 362
+    },
+    "berserk": {
+      "function": "do_berserk",
+      "trust": "POS_FIGHTING",
+      "line": 363
+    },
+    "biomanipulation": {
+      "function": "do_biomanipulation",
+      "trust": "POS_FIGHTING",
+      "line": 364
+    },
+    "battle": {
+      "function": "do_battle",
+      "trust": "POS_FIGHTING",
+      "line": 365
+    },
+    "battlehymn": {
+      "function": "do_battlehymn",
+      "trust": "POS_STANDING",
+      "line": 366
+    },
+    "bloodlust": {
+      "function": "do_bloodlust",
+      "trust": "POS_FIGHTING",
+      "line": 368
+    },
+    "circle": {
+      "function": "do_circle",
+      "trust": "POS_FIGHTING",
+      "line": 370
+    },
+    "cleave": {
+      "function": "do_cleave",
+      "trust": "POS_FIGHTING",
+      "line": 371
+    },
+    "concentration": {
+      "function": "do_concentration",
+      "trust": "POS_STANDING",
+      "line": 372
+    },
+    "feed": {
+      "function": "do_feed",
+      "trust": "POS_FIGHTING",
+      "line": 374
+    },
+    "dhammer": {
+      "function": "do_dhammer",
+      "trust": "POS_FIGHTING",
+      "line": 376
+    },
+    "dirt": {
+      "function": "do_dirt",
+      "trust": "POS_FIGHTING",
+      "line": 377
+    },
+    "disarm": {
+      "function": "do_disarm",
+      "trust": "POS_FIGHTING",
+      "line": 378
+    },
+    "dislodge": {
+      "function": "do_dislodge",
+      "trust": "POS_FIGHTING",
+      "line": 379
+    },
+    "dice": {
+      "function": "do_dice",
+      "trust": "POS_STANDING",
+      "line": 380
+    },
+    "eadbutt": {
+      "function": "do_eadbutt",
+      "trust": "POS_FIGHTING",
+      "line": 381
+    },
+    "electrokinesis": {
+      "function": "do_electrokinesis",
+      "trust": "POS_FIGHTING",
+      "line": 382
+    },
+    "telekinesis": {
+      "function": "do_telekinesis",
+      "trust": "POS_FIGHTING",
+      "line": 383
+    },
+    "terrify": {
+      "function": "do_terrify",
+      "trust": "POS_STANDING",
+      "line": 384
+    },
+    "plantroots": {
+      "function": "do_plantroots",
+      "trust": "POS_FIGHTING",
+      "line": 385
+    },
+    "pyrokinesis": {
+      "function": "do_pyrokinesis",
+      "trust": "POS_FIGHTING",
+      "line": 386
+    },
+    "earthbind": {
+      "function": "do_earthbind",
+      "trust": "POS_FIGHTING",
+      "line": 387
+    },
+    "smother": {
+      "function": "do_smother",
+      "trust": "POS_STANDING",
+      "line": 388
+    },
+    "excalibur": {
+      "function": "do_excalibur",
+      "trust": "POS_FIGHTING",
+      "line": 389
+    },
+    "flee": {
+      "function": "do_flee",
+      "trust": "POS_FIGHTING",
+      "line": 390
+    },
+    "gash": {
+      "function": "do_gash",
+      "trust": "POS_FIGHTING",
+      "line": 391
+    },
+    "garotte": {
+      "function": "do_garotte",
+      "trust": "POS_FIGHTING",
+      "line": 392
+    },
+    "gouge": {
+      "function": "do_gouge",
+      "trust": "POS_FIGHTING",
+      "line": 393
+    },
+    "gore": {
+      "function": "do_gore",
+      "trust": "POS_FIGHTING",
+      "line": 394
+    },
+    "bind": {
+      "function": "do_bind",
+      "trust": "POS_FIGHTING",
+      "line": 395
+    },
+    "katana": {
+      "function": "do_katana",
+      "trust": "POS_STANDING",
+      "line": 396
+    },
+    "kick": {
+      "function": "do_kick",
+      "trust": "POS_FIGHTING",
+      "line": 397
+    },
+    "jab": {
+      "function": "do_jab",
+      "trust": "POS_STANDING",
+      "line": 398
+    },
+    "lore": {
+      "function": "do_lore",
+      "trust": "POS_RESTING",
+      "line": 399
+    },
+    "quickening": {
+      "function": "do_quickening",
+      "trust": "POS_FIGHTING",
+      "line": 400
+    },
+    "repair": {
+      "function": "do_repair",
+      "trust": "POS_STANDING",
+      "line": 401
+    },
+    "rescue": {
+      "function": "do_rescue",
+      "trust": "POS_FIGHTING",
+      "line": 402
+    },
+    "roundhouse": {
+      "function": "do_roundhouse",
+      "trust": "POS_FIGHTING",
+      "line": 404
+    },
+    "rub": {
+      "function": "do_rub",
+      "trust": "POS_FIGHTING",
+      "line": 405
+    },
+    "scream": {
+      "function": "do_scream",
+      "trust": "POS_FIGHTING",
+      "line": 406
+    },
+    "shuriken": {
+      "function": "do_shuriken",
+      "trust": "POS_FIGHTING",
+      "line": 407
+    },
+    "spellbane": {
+      "function": "do_spellbane",
+      "trust": "POS_FIGHTING",
+      "line": 408
+    },
+    "smash": {
+      "function": "do_shield_smash",
+      "trust": "POS_FIGHTING",
+      "line": 409
+    },
+    "stomp": {
+      "function": "do_stomp",
+      "trust": "POS_FIGHTING",
+      "line": 410
+    },
+    "strike": {
+      "function": "do_strike",
+      "trust": "POS_FIGHTING",
+      "line": 411
+    },
+    "trip": {
+      "function": "do_trip",
+      "trust": "POS_FIGHTING",
+      "line": 415
+    },
+    "whirlwind": {
+      "function": "do_whirlwind",
+      "trust": "POS_FIGHTING",
+      "line": 417
+    },
+    "powerblind": {
+      "function": "do_powerblind",
+      "trust": "POS_FIGHTING",
+      "line": 418
+    },
+    "powerinvuln": {
+      "function": "do_powerinvuln",
+      "trust": "POS_FIGHTING",
+      "line": 419
+    },
+    "powersilence": {
+      "function": "do_powersilence",
+      "trust": "POS_FIGHTING",
+      "line": 420
+    },
+    "powerstun": {
+      "function": "do_powerstun",
+      "trust": "POS_FIGHTING",
+      "line": 421
+    },
+    "herotalk": {
+      "function": "do_herotalk",
+      "trust": "POS_DEAD",
+      "line": 426
+    },
+    "cleanse": {
+      "function": "do_cleanse",
+      "trust": "POS_STANDING",
+      "line": 427
+    },
+    "htouch": {
+      "function": "do_healing_touch",
+      "trust": "POS_STANDING",
+      "line": 428
+    },
+    "bounty": {
+      "function": "do_bounty",
+      "trust": "POS_STANDING",
+      "line": 429
+    },
+    "enter": {
+      "function": "do_enter",
+      "trust": "POS_STANDING",
+      "line": 430
+    },
+    "follow": {
+      "function": "do_follow",
+      "trust": "POS_RESTING",
+      "line": 431
+    },
+    "gain": {
+      "function": "do_gain",
+      "trust": "POS_STANDING",
+      "line": 432
+    },
+    "go": {
+      "function": "do_enter",
+      "trust": "POS_STANDING",
+      "line": 433
+    },
+    "groups": {
+      "function": "do_groups",
+      "trust": "POS_SLEEPING",
+      "line": 437
+    },
+    "hide": {
+      "function": "do_hide",
+      "trust": "POS_RESTING",
+      "line": 438
+    },
+    "camouflage": {
+      "function": "do_camouflage",
+      "trust": "POS_STANDING",
+      "line": 439
+    },
+    "member": {
+      "function": "do_member",
+      "trust": "POS_RESTING",
+      "line": 440
+    },
+    "play": {
+      "function": "do_play",
+      "trust": "POS_RESTING",
+      "line": 441
+    },
+    "qui": {
+      "function": "do_qui",
+      "trust": "POS_DEAD",
+      "line": 445
+    },
+    "quit": {
+      "function": "do_quit",
+      "trust": "POS_DEAD",
+      "line": 446
+    },
+    "recall": {
+      "function": "do_recall",
+      "trust": "POS_FIGHTING",
+      "line": 447
+    },
+    "crecall": {
+      "function": "do_crecall",
+      "trust": "POS_FIGHTING",
+      "line": 449
+    },
+    "rent": {
+      "function": "do_rent",
+      "trust": "POS_DEAD",
+      "line": 452
+    },
+    "save": {
+      "function": "do_save",
+      "trust": "POS_DEAD",
+      "line": 453
+    },
+    "backup": {
+      "function": "do_backup",
+      "trust": "POS_SLEEPING",
+      "line": 454
+    },
+    "shroud": {
+      "function": "do_shroud",
+      "trust": "POS_STANDING",
+      "line": 455
+    },
+    "shadowwalk": {
+      "function": "do_shadow_walk",
+      "trust": "POS_STANDING",
+      "line": 456
+    },
+    "shadowstep": {
+      "function": "do_shadowstep",
+      "trust": "POS_STANDING",
+      "line": 457
+    },
+    "sleep": {
+      "function": "do_sleep",
+      "trust": "POS_RESTING",
+      "line": 458
+    },
+    "slot": {
+      "function": "do_slot",
+      "trust": "POS_STANDING",
+      "line": 459
+    },
+    "slowns": {
+      "function": "do_slowns",
+      "trust": "POS_SLEEPING",
+      "line": 461
+    },
+    "sneak": {
+      "function": "do_sneak",
+      "trust": "POS_STANDING",
+      "line": 463
+    },
+    "revert": {
+      "function": "do_revert",
+      "trust": "POS_STANDING",
+      "line": 464
+    },
+    "split": {
+      "function": "do_split",
+      "trust": "POS_RESTING",
+      "line": 465
+    },
+    "steal": {
+      "function": "do_steal",
+      "trust": "POS_STANDING",
+      "line": 466
+    },
+    "train": {
+      "function": "do_train",
+      "trust": "POS_RESTING",
+      "line": 467
+    },
+    "trapset": {
+      "function": "do_trapset",
+      "trust": "POS_STANDING",
+      "line": 468
+    },
+    "track": {
+      "function": "do_track",
+      "trust": "POS_STANDING",
+      "line": 471
+    },
+    "visible": {
+      "function": "do_visible",
+      "trust": "POS_SLEEPING",
+      "line": 472
+    },
+    "wake": {
+      "function": "do_wake",
+      "trust": "POS_SLEEPING",
+      "line": 473
+    },
+    "where": {
+      "function": "do_where",
+      "trust": "POS_RESTING",
+      "line": 474
+    },
+    "donate": {
+      "function": "do_donate",
+      "trust": "POS_STANDING",
+      "line": 475
+    },
+    "cdonate": {
+      "function": "do_cdonate",
+      "trust": "POS_STANDING",
+      "line": 476
+    },
+    "class": {
+      "function": "do_class",
+      "trust": "POS_SLEEPING",
+      "line": 477
+    },
+    "classtalk": {
+      "function": "do_classtalk",
+      "trust": "POS_DEAD",
+      "line": 478
+    },
+    "racetalk": {
+      "function": "do_racetalk",
+      "trust": "POS_DEAD",
+      "line": 479
+    },
+    "newbie": {
+      "function": "do_newbie",
+      "trust": "POS_DEAD",
+      "line": 480
+    },
+    "forage": {
+      "function": "do_forage",
+      "trust": "POS_STANDING",
+      "line": 481
+    },
+    "forge": {
+      "function": "do_forge",
+      "trust": "POS_SLEEPING",
+      "line": 482
+    },
+    "classifieds": {
+      "function": "do_classifieds",
+      "trust": "POS_SLEEPING",
+      "line": 483
+    },
+    "view": {
+      "function": "do_view",
+      "trust": "POS_SLEEPING",
+      "line": 484
+    },
+    "noview": {
+      "function": "do_noview",
+      "trust": "POS_SLEEPING",
+      "line": 485
+    },
+    "forget": {
+      "function": "do_forget",
+      "trust": "POS_SLEEPING",
+      "line": 486
+    },
+    "remembe": {
+      "function": "do_remembe",
+      "trust": "POS_SLEEPING",
+      "line": 487
+    },
+    "remember": {
+      "function": "do_remember",
+      "trust": "POS_SLEEPING",
+      "line": 488
+    },
+    "voodoo": {
+      "function": "do_voodoo",
+      "trust": "POS_STANDING",
+      "line": 489
+    },
+    "transfer": {
+      "function": "do_transfer",
+      "trust": "POS_DEAD",
+      "line": 490
+    },
+    "transfix": {
+      "function": "do_transfix",
+      "trust": "POS_STANDING",
+      "line": 491
+    },
+    "offer": {
+      "function": "do_offer",
+      "trust": "POS_STANDING",
+      "line": 492
+    },
+    "challenge": {
+      "function": "do_challenge",
+      "trust": "POS_STANDING",
+      "line": 497
+    },
+    "accept": {
+      "function": "do_accept",
+      "trust": "POS_STANDING",
+      "line": 498
+    },
+    "decline": {
+      "function": "do_decline",
+      "trust": "POS_SLEEPING",
+      "line": 499
+    },
+    "arena": {
+      "function": "do_arena",
+      "trust": "POS_DEAD",
+      "line": 500
+    },
+    "astat": {
+      "function": "do_astat",
+      "trust": "POS_DEAD",
+      "line": 501
+    },
+    "abusy": {
+      "function": "do_abusy",
+      "trust": "POS_DEAD",
+      "line": 502
+    },
+    "alock": {
+      "function": "do_alock",
+      "trust": "POS_DEAD",
+      "line": 503
+    },
+    "aclear": {
+      "function": "do_aclear",
+      "trust": "POS_DEAD",
+      "line": 504
+    },
+    "resetarena": {
+      "function": "do_resetarena",
+      "trust": "POS_DEAD",
+      "line": 505
+    },
+    "trivia": {
+      "function": "do_trivia",
+      "trust": "POS_DEAD",
+      "line": 506
+    },
+    "nohint": {
+      "function": "do_nohint",
+      "trust": "POS_SLEEPING",
+      "line": 507
+    },
+    "nowar": {
+      "function": "do_nowar",
+      "trust": "POS_SLEEPING",
+      "line": 508
+    },
+    "showequip": {
+      "function": "do_sequip",
+      "trust": "POS_DEAD",
+      "line": 513
+    },
+    "addaffect": {
+      "function": "do_addaffect",
+      "trust": "POS_DEAD",
+      "line": 514
+    },
+    "remaffect": {
+      "function": "do_remaffect",
+      "trust": "POS_DEAD",
+      "line": 515
+    },
+    "aschar": {
+      "function": "do_aschar",
+      "trust": "POS_DEAD",
+      "line": 516
+    },
+    "check": {
+      "function": "do_check",
+      "trust": "POS_DEAD",
+      "line": 517
+    },
+    "copyove": {
+      "function": "do_copyove",
+      "trust": "POS_DEAD",
+      "line": 518
+    },
+    "confirm": {
+      "function": "do_confirm",
+      "trust": "POS_DEAD",
+      "line": 519
+    },
+    "copyover": {
+      "function": "do_copyover",
+      "trust": "POS_DEAD",
+      "line": 520
+    },
+    "advance": {
+      "function": "do_advance",
+      "trust": "POS_DEAD",
+      "line": 521
+    },
+    "convert": {
+      "function": "do_convert",
+      "trust": "POS_DEAD",
+      "line": 522
+    },
+    "avatar": {
+      "function": "do_avatar",
+      "trust": "POS_DEAD",
+      "line": 523
+    },
+    "prize": {
+      "function": "do_prize",
+      "trust": "POS_DEAD",
+      "line": 524
+    },
+    "zwho": {
+      "function": "do_zwho",
+      "trust": "POS_DEAD",
+      "line": 525
+    },
+    "gwho": {
+      "function": "do_gwho",
+      "trust": "POS_DEAD",
+      "line": 526
+    },
+    "dump": {
+      "function": "do_dump",
+      "trust": "POS_DEAD",
+      "line": 527
+    },
+    "trust": {
+      "function": "do_trust",
+      "trust": "POS_DEAD",
+      "line": 528
+    },
+    "violate": {
+      "function": "do_violate",
+      "trust": "POS_DEAD",
+      "line": 529
+    },
+    "allow": {
+      "function": "do_allow",
+      "trust": "POS_DEAD",
+      "line": 530
+    },
+    "ban": {
+      "function": "do_ban",
+      "trust": "POS_DEAD",
+      "line": 531
+    },
+    "deny": {
+      "function": "do_deny",
+      "trust": "POS_DEAD",
+      "line": 532
+    },
+    "disconnect": {
+      "function": "do_disconnect",
+      "trust": "POS_DEAD",
+      "line": 533
+    },
+    "dupe": {
+      "function": "do_dupe",
+      "trust": "POS_DEAD",
+      "line": 534
+    },
+    "finger": {
+      "function": "do_finger",
+      "trust": "POS_DEAD",
+      "line": 535
+    },
+    "flag": {
+      "function": "do_flag",
+      "trust": "POS_DEAD",
+      "line": 536
+    },
+    "freeze": {
+      "function": "do_freeze",
+      "trust": "POS_DEAD",
+      "line": 537
+    },
+    "grant": {
+      "function": "do_grant",
+      "trust": "POS_DEAD",
+      "line": 538
+    },
+    "idle": {
+      "function": "do_idle",
+      "trust": "POS_DEAD",
+      "line": 539
+    },
+    "mlevel": {
+      "function": "do_mlevel",
+      "trust": "POS_DEAD",
+      "line": 540
+    },
+    "olevel": {
+      "function": "do_olevel",
+      "trust": "POS_DEAD",
+      "line": 541
+    },
+    "oleveltrue": {
+      "function": "do_oleveltrue",
+      "trust": "POS_DEAD",
+      "line": 542
+    },
+    "otype": {
+      "function": "do_otype",
+      "trust": "POS_DEAD",
+      "line": 543
+    },
+    "mortify": {
+      "function": "do_mortify",
+      "trust": "POS_DEAD",
+      "line": 544
+    },
+    "shield": {
+      "function": "do_shield",
+      "trust": "POS_DEAD",
+      "line": 545
+    },
+    "permban": {
+      "function": "do_permban",
+      "trust": "POS_DEAD",
+      "line": 546
+    },
+    "protect": {
+      "function": "do_protect",
+      "trust": "POS_DEAD",
+      "line": 547
+    },
+    "reboo": {
+      "function": "do_reboo",
+      "trust": "POS_DEAD",
+      "line": 548
+    },
+    "reboot": {
+      "function": "do_reboot",
+      "trust": "POS_DEAD",
+      "line": 549
+    },
+    "revoke": {
+      "function": "do_revoke",
+      "trust": "POS_DEAD",
+      "line": 550
+    },
+    "scatter": {
+      "function": "do_scatter",
+      "trust": "POS_DEAD",
+      "line": 551
+    },
+    "set": {
+      "function": "do_set",
+      "trust": "POS_DEAD",
+      "line": 552
+    },
+    "spellup": {
+      "function": "do_spellup",
+      "trust": "POS_DEAD",
+      "line": 553
+    },
+    "globcast": {
+      "function": "do_globcast",
+      "trust": "POS_DEAD",
+      "line": 554
+    },
+    "shutdow": {
+      "function": "do_shutdow",
+      "trust": "POS_DEAD",
+      "line": 555
+    },
+    "shutdown": {
+      "function": "do_shutdown",
+      "trust": "POS_DEAD",
+      "line": 556
+    },
+    "wedpost": {
+      "function": "do_wedpost",
+      "trust": "POS_DEAD",
+      "line": 557
+    },
+    "wizlock": {
+      "function": "do_wizlock",
+      "trust": "POS_DEAD",
+      "line": 558
+    },
+    "mudstat": {
+      "function": "do_mudstat",
+      "trust": "POS_DEAD",
+      "line": 559
+    },
+    "double": {
+      "function": "do_double",
+      "trust": "POS_DEAD",
+      "line": 560
+    },
+    "ftick": {
+      "function": "do_ftick",
+      "trust": "POS_DEAD",
+      "line": 561
+    },
+    "force": {
+      "function": "do_force",
+      "trust": "POS_DEAD",
+      "line": 562
+    },
+    "load": {
+      "function": "do_load",
+      "trust": "POS_DEAD",
+      "line": 563
+    },
+    "newlock": {
+      "function": "do_newlock",
+      "trust": "POS_DEAD",
+      "line": 564
+    },
+    "nochannels": {
+      "function": "do_nochannels",
+      "trust": "POS_DEAD",
+      "line": 565
+    },
+    "nk": {
+      "function": "do_newbiekiller",
+      "trust": "POS_DEAD",
+      "line": 566
+    },
+    "newbiekiller": {
+      "function": "do_newbiekiller",
+      "trust": "POS_DEAD",
+      "line": 567
+    },
+    "noclan": {
+      "function": "do_noclan",
+      "trust": "POS_DEAD",
+      "line": 568
+    },
+    "norestore": {
+      "function": "do_norestore",
+      "trust": "POS_DEAD",
+      "line": 569
+    },
+    "noshout": {
+      "function": "do_noshout",
+      "trust": "POS_DEAD",
+      "line": 570
+    },
+    "notell": {
+      "function": "do_notell",
+      "trust": "POS_DEAD",
+      "line": 571
+    },
+    "notitle": {
+      "function": "do_notitle",
+      "trust": "POS_DEAD",
+      "line": 572
+    },
+    "noquest": {
+      "function": "do_noquest",
+      "trust": "POS_DEAD",
+      "line": 573
+    },
+    "paradox": {
+      "function": "do_paradox",
+      "trust": "POS_DEAD",
+      "line": 574
+    },
+    "pack": {
+      "function": "do_pack",
+      "trust": "POS_DEAD",
+      "line": 575
+    },
+    "pecho": {
+      "function": "do_pecho",
+      "trust": "POS_DEAD",
+      "line": 576
+    },
+    "purge": {
+      "function": "do_purge",
+      "trust": "POS_DEAD",
+      "line": 577
+    },
+    "qtrans": {
+      "function": "do_qtrans",
+      "trust": "POS_DEAD",
+      "line": 578
+    },
+    "restore": {
+      "function": "do_restore",
+      "trust": "POS_DEAD",
+      "line": 579
+    },
+    "qforce": {
+      "function": "do_qforce",
+      "trust": "POS_DEAD",
+      "line": 580
+    },
+    "qrestore": {
+      "function": "do_qrestore",
+      "trust": "POS_DEAD",
+      "line": 581
+    },
+    "rename": {
+      "function": "do_rename",
+      "trust": "POS_DEAD",
+      "line": 582
+    },
+    "sla": {
+      "function": "do_sla",
+      "trust": "POS_DEAD",
+      "line": 583
+    },
+    "slay": {
+      "function": "do_slay",
+      "trust": "POS_DEAD",
+      "line": 584
+    },
+    "teleport": {
+      "function": "do_transfer",
+      "trust": "POS_DEAD",
+      "line": 585
+    },
+    "corner": {
+      "function": "do_corner",
+      "trust": "POS_DEAD",
+      "line": 586
+    },
+    "doof": {
+      "function": "do_doof",
+      "trust": "POS_DEAD",
+      "line": 587
+    },
+    "pardon": {
+      "function": "do_pardon",
+      "trust": "POS_DEAD",
+      "line": 588
+    },
+    "poofin": {
+      "function": "do_bamfin",
+      "trust": "POS_DEAD",
+      "line": 589
+    },
+    "poofout": {
+      "function": "do_bamfout",
+      "trust": "POS_DEAD",
+      "line": 590
+    },
+    "gecho": {
+      "function": "do_echo",
+      "trust": "POS_DEAD",
+      "line": 591
+    },
+    "ghost": {
+      "function": "do_ghost",
+      "trust": "POS_DEAD",
+      "line": 592
+    },
+    "holylight": {
+      "function": "do_holylight",
+      "trust": "POS_DEAD",
+      "line": 593
+    },
+    "incognito": {
+      "function": "do_incognito",
+      "trust": "POS_DEAD",
+      "line": 594
+    },
+    "invis": {
+      "function": "do_invis",
+      "trust": "POS_DEAD",
+      "line": 595
+    },
+    "log": {
+      "function": "do_log",
+      "trust": "POS_DEAD",
+      "line": 596
+    },
+    "memory": {
+      "function": "do_memory",
+      "trust": "POS_DEAD",
+      "line": 597
+    },
+    "mwhere": {
+      "function": "do_mwhere",
+      "trust": "POS_DEAD",
+      "line": 598
+    },
+    "owhere": {
+      "function": "do_owhere",
+      "trust": "POS_DEAD",
+      "line": 599
+    },
+    "peace": {
+      "function": "do_peace",
+      "trust": "POS_DEAD",
+      "line": 600
+    },
+    "allpeace": {
+      "function": "do_allpeace",
+      "trust": "POS_DEAD",
+      "line": 601
+    },
+    "penalty": {
+      "function": "do_penalty",
+      "trust": "POS_DEAD",
+      "line": 602
+    },
+    "penance": {
+      "function": "do_penance",
+      "trust": "POS_RESTING",
+      "line": 603
+    },
+    "echo": {
+      "function": "do_recho",
+      "trust": "POS_DEAD",
+      "line": 604
+    },
+    "return": {
+      "function": "do_return",
+      "trust": "POS_DEAD",
+      "line": 605
+    },
+    "snoop": {
+      "function": "do_snoop",
+      "trust": "POS_DEAD",
+      "line": 606
+    },
+    "stat": {
+      "function": "do_stat",
+      "trust": "POS_DEAD",
+      "line": 607
+    },
+    "string": {
+      "function": "do_string",
+      "trust": "POS_DEAD",
+      "line": 608
+    },
+    "switch": {
+      "function": "do_switch",
+      "trust": "POS_DEAD",
+      "line": 609
+    },
+    "wizinvis": {
+      "function": "do_invis",
+      "trust": "POS_DEAD",
+      "line": 610
+    },
+    "wecho": {
+      "function": "do_wecho",
+      "trust": "POS_DEAD",
+      "line": 611
+    },
+    "walkin": {
+      "function": "do_walkin",
+      "trust": "POS_DEAD",
+      "line": 612
+    },
+    "walkout": {
+      "function": "do_walkout",
+      "trust": "POS_DEAD",
+      "line": 613
+    },
+    "warn": {
+      "function": "do_warn",
+      "trust": "POS_DEAD",
+      "line": 614
+    },
+    "vnum": {
+      "function": "do_vnum",
+      "trust": "POS_DEAD",
+      "line": 615
+    },
+    "zecho": {
+      "function": "do_zecho",
+      "trust": "POS_DEAD",
+      "line": 616
+    },
+    "roster": {
+      "function": "do_roster",
+      "trust": "POS_DEAD",
+      "line": 617
+    },
+    "cgrant": {
+      "function": "do_cgrant",
+      "trust": "POS_DEAD",
+      "line": 618
+    },
+    "clead": {
+      "function": "do_clead",
+      "trust": "POS_DEAD",
+      "line": 619
+    },
+    "clanwithdraw": {
+      "function": "do_clanwithdraw",
+      "trust": "POS_DEAD",
+      "line": 620
+    },
+    "clandeposit": {
+      "function": "do_clandeposit",
+      "trust": "POS_DEAD",
+      "line": 621
+    },
+    "clanbalance": {
+      "function": "do_clanbalance",
+      "trust": "POS_DEAD",
+      "line": 622
+    },
+    "clanbalancewipe": {
+      "function": "do_clanbalancewipe",
+      "trust": "POS_DEAD",
+      "line": 623
+    },
+    "cwithdraw": {
+      "function": "do_clanwithdraw",
+      "trust": "POS_DEAD",
+      "line": 624
+    },
+    "cdeposit": {
+      "function": "do_clandeposit",
+      "trust": "POS_DEAD",
+      "line": 625
+    },
+    "cbalance": {
+      "function": "do_clanbalance",
+      "trust": "POS_DEAD",
+      "line": 626
+    },
+    "alliance": {
+      "function": "do_alliance",
+      "trust": "POS_DEAD",
+      "line": 627
+    },
+    "clone": {
+      "function": "do_clone",
+      "trust": "POS_DEAD",
+      "line": 628
+    },
+    "wiznet": {
+      "function": "do_wiznet",
+      "trust": "POS_DEAD",
+      "line": 629
+    },
+    "neetotalk": {
+      "function": "do_neetotalk",
+      "trust": "POS_DEAD",
+      "line": 630
+    },
+    "cooltalk": {
+      "function": "do_cooltalk",
+      "trust": "POS_DEAD",
+      "line": 631
+    },
+    "exectalk": {
+      "function": "do_exectalk",
+      "trust": "POS_DEAD",
+      "line": 632
+    },
+    "dorca": {
+      "function": "do_dorca",
+      "trust": "POS_DEAD",
+      "line": 633
+    },
+    "execute": {
+      "function": "do_execute",
+      "trust": "POS_DEAD",
+      "line": 634
+    },
+    "pokepaine": {
+      "function": "do_pokepaine",
+      "trust": "POS_DEAD",
+      "line": 635
+    },
+    "assblow": {
+      "function": "do_assblow",
+      "trust": "POS_DEAD",
+      "line": 636
+    },
+    "immtalk": {
+      "function": "do_immtalk",
+      "trust": "POS_DEAD",
+      "line": 637
+    },
+    "leveltalk": {
+      "function": "do_leveltalk",
+      "trust": "POS_DEAD",
+      "line": 638
+    },
+    "olc": {
+      "function": "do_olc",
+      "trust": "POS_DEAD",
+      "line": 639
+    },
+    "immnote": {
+      "function": "do_immnote",
+      "trust": "POS_DEAD",
+      "line": 640
+    },
+    "imotd": {
+      "function": "do_imotd",
+      "trust": "POS_DEAD",
+      "line": 641
+    },
+    "smote": {
+      "function": "do_smote",
+      "trust": "POS_DEAD",
+      "line": 643
+    },
+    "prefi": {
+      "function": "do_prefi",
+      "trust": "POS_DEAD",
+      "line": 644
+    },
+    "prefix": {
+      "function": "do_prefix",
+      "trust": "POS_DEAD",
+      "line": 645
+    },
+    "mpoint": {
+      "function": "do_mpoint",
+      "trust": "POS_DEAD",
+      "line": 646
+    },
+    "mquest": {
+      "function": "do_mquest",
+      "trust": "POS_DEAD",
+      "line": 647
+    },
+    "sign": {
+      "function": "do_sign",
+      "trust": "POS_DEAD",
+      "line": 648
+    },
+    "immkiss": {
+      "function": "do_immkiss",
+      "trust": "POS_DEAD",
+      "line": 649
+    },
+    "recover": {
+      "function": "do_recover",
+      "trust": "POS_RESTING",
+      "line": 650
+    },
+    "gset": {
+      "function": "do_gset",
+      "trust": "POS_DEAD",
+      "line": 651
+    },
+    "wizslap": {
+      "function": "do_wizslap",
+      "trust": "POS_DEAD",
+      "line": 652
+    },
+    "swedeslap": {
+      "function": "do_swedeslap",
+      "trust": "POS_DEAD",
+      "line": 653
+    },
+    "wipe": {
+      "function": "do_wipe",
+      "trust": "POS_DEAD",
+      "line": 654
+    },
+    "polymorph": {
+      "function": "do_polymorph",
+      "trust": "POS_RESTING",
+      "line": 655
+    },
+    "disabl": {
+      "function": "do_disabl",
+      "trust": "POS_DEAD",
+      "line": 656
+    },
+    "disable": {
+      "function": "do_disable",
+      "trust": "POS_DEAD",
+      "line": 657
+    },
+    "qname": {
+      "function": "do_qname",
+      "trust": "POS_DEAD",
+      "line": 658
+    },
+    "clanexile": {
+      "function": "do_clanexile",
+      "trust": "POS_DEAD",
+      "line": 659
+    },
+    "redit": {
+      "function": "do_redit",
+      "trust": "POS_DEAD",
+      "line": 662
+    },
+    "rsedit": {
+      "function": "do_rsedit",
+      "trust": "POS_DEAD",
+      "line": 663
+    },
+    "medit": {
+      "function": "do_medit",
+      "trust": "POS_DEAD",
+      "line": 664
+    },
+    "oedit": {
+      "function": "do_oedit",
+      "trust": "POS_DEAD",
+      "line": 665
+    },
+    "aedit": {
+      "function": "do_aedit",
+      "trust": "POS_DEAD",
+      "line": 666
+    },
+    "hedit": {
+      "function": "do_hedit",
+      "trust": "POS_DEAD",
+      "line": 667
+    },
+    "socedit": {
+      "function": "do_socedit",
+      "trust": "POS_DEAD",
+      "line": 668
+    },
+    "asave": {
+      "function": "do_asave",
+      "trust": "POS_DEAD",
+      "line": 669
+    },
+    "alist": {
+      "function": "do_alist",
+      "trust": "POS_DEAD",
+      "line": 670
+    },
+    "alinks": {
+      "function": "do_alinks",
+      "trust": "POS_DEAD",
+      "line": 671
+    },
+    "secset": {
+      "function": "do_secset",
+      "trust": "POS_DEAD",
+      "line": 672
+    },
+    "vopen": {
+      "function": "do_vopen",
+      "trust": "POS_DEAD",
+      "line": 673
+    },
+    "dcreate": {
+      "function": "do_dcreate",
+      "trust": "POS_DEAD",
+      "line": 674
+    },
+    "restring": {
+      "function": "do_restring",
+      "trust": "POS_STANDING",
+      "line": 680
+    },
+    "delet": {
+      "function": "do_delet",
+      "trust": "POS_DEAD",
+      "line": 681
+    },
+    "delete": {
+      "function": "do_delete",
+      "trust": "POS_STANDING",
+      "line": 682
+    },
+    "rerol": {
+      "function": "do_rerol",
+      "trust": "POS_DEAD",
+      "line": 683
+    },
+    "reroll": {
+      "function": "do_reroll",
+      "trust": "POS_STANDING",
+      "line": 684
+    },
+    "remor": {
+      "function": "do_rerol",
+      "trust": "POS_STANDING",
+      "line": 685
+    },
+    "remort": {
+      "function": "do_remort",
+      "trust": "POS_STANDING",
+      "line": 686
+    },
+    "registerp": {
+      "function": "do_registerp",
+      "trust": "POS_STANDING",
+      "line": 687
+    },
+    "registerpk": {
+      "function": "do_registerpk",
+      "trust": "POS_STANDING",
+      "line": 688
+    }
+  },
+  "gsn_declarations": {},
+  "area_vnums": {
+    "adares.are": {
+      "name": "[90 HR] Alecca   Adares",
+      "min_vnum": 79400,
+      "max_vnum": 79508,
+      "count": 203
+    },
+    "ascii.are": {
+      "name": "[ HRO ] Shade    Shade's Test Area",
+      "min_vnum": 1900,
+      "max_vnum": 1926,
+      "count": 42
+    },
+    "atlantis.are": {
+      "name": "[31 40] Alecca   Atlantis",
+      "min_vnum": 5000,
+      "max_vnum": 5177,
+      "count": 233
+    },
+    "automaton.are": {
+      "name": "[71 HR] Nevalis  Automaton Village",
+      "min_vnum": 14300,
+      "max_vnum": 14408,
+      "count": 70
+    },
+    "avalon.are": {
+      "name": "[51 60] Alecca   Avalon",
+      "min_vnum": 44500,
+      "max_vnum": 44599,
+      "count": 212
+    },
+    "aviary.are": {
+      "name": "[71 80] Alecca   Gryphon Aviary",
+      "min_vnum": 1500,
+      "max_vnum": 1590,
+      "count": 137
+    },
+    "bangzui.are": {
+      "name": "[ HRO ] Alecca   Bangzui Gardens",
+      "min_vnum": 21900,
+      "max_vnum": 21930,
+      "count": 80
+    },
+    "battle.are": {
+      "name": "[ ALL ] Darhoth  Battle Arena",
+      "min_vnum": 2600,
+      "max_vnum": 2652,
+      "count": 53
+    },
+    "bazaar.are": {
+      "name": "[60 HR] Nevalis  Thieves Bazaar",
+      "min_vnum": 5200,
+      "max_vnum": 5525,
+      "count": 58
+    },
+    "best.are": {
+      "name": "[ ALL ] Leto     Help Best/Tourney",
+      "min_vnum": 85000,
+      "max_vnum": 85035,
+      "count": 66
+    },
+    "bihran.are": {
+      "name": "[51 60] Nevalis  Bihran's Castle",
+      "min_vnum": 1800,
+      "max_vnum": 1870,
+      "count": 136
+    },
+    "bryvyan.are": {
+      "name": "[ TBA ] Nevalis  Cave of Trials",
+      "min_vnum": 86700,
+      "max_vnum": 86715,
+      "count": 16
+    },
+    "bugbear.are": {
+      "name": "[20 50] Alecca   Bugbear Lair",
+      "min_vnum": 9200,
+      "max_vnum": 9279,
+      "count": 139
+    },
+    "chaos.are": {
+      "name": "[ HRO ] Alecca   Chaos Vale",
+      "min_vnum": 4500,
+      "max_vnum": 4544,
+      "count": 89
+    },
+    "chaosruins.are": {
+      "name": "[ARENA] Nevalis  Chaos Arena",
+      "min_vnum": 86100,
+      "max_vnum": 86179,
+      "count": 76
+    },
+    "cloudkeep.are": {
+      "name": "[81 90] Nevalis  Castle Keep",
+      "min_vnum": 4700,
+      "max_vnum": 4759,
+      "count": 87
+    },
+    "crystallis.are": {
+      "name": "[ HRO ] Alecca   Crystallis",
+      "min_vnum": 13200,
+      "max_vnum": 13221,
+      "count": 52
+    },
+    "dagger.are": {
+      "name": "Drakon   Dagger Falls",
+      "min_vnum": 16800,
+      "max_vnum": 16968,
+      "count": 227
+    },
+    "delirium.are": {
+      "name": "[ ALL ] Raistlen Delirium",
+      "min_vnum": 87200,
+      "max_vnum": 87285,
+      "count": 168
+    },
+    "dsclans.are": {
+      "name": "[ IMM ] Various  DS Clans",
+      "min_vnum": 53000,
+      "max_vnum": 53902,
+      "count": 182
+    },
+    "effdwarf.are": {
+      "name": "[ HRO ] Alecca   The Effeminate Dwarf",
+      "min_vnum": 9400,
+      "max_vnum": 9424,
+      "count": 50
+    },
+    "elyssian.are": {
+      "name": "[ IMM ] DS Imms  Elyssian Fields",
+      "min_vnum": 1100,
+      "max_vnum": 1299,
+      "count": 208
+    },
+    "emptytomb.are": {
+      "name": "[ARENA] Arutha   Empty Tomb",
+      "min_vnum": 51851,
+      "max_vnum": 51872,
+      "count": 22
+    },
+    "enchantedforest.are": {
+      "name": "[ HRO ] Nevalis  The Enchanted Forest",
+      "min_vnum": 79700,
+      "max_vnum": 79978,
+      "count": 134
+    },
+    "endarena.are": {
+      "name": "[ARENA] Nevalis  Endurance Arena",
+      "min_vnum": 86400,
+      "max_vnum": 86546,
+      "count": 152
+    },
+    "faerie.are": {
+      "name": "[31 40] Alecca   Faeriedale",
+      "min_vnum": 34800,
+      "max_vnum": 34899,
+      "count": 151
+    },
+    "fairytale.are": {
+      "name": "[30 HR] Epitafio FairyTale",
+      "min_vnum": 87300,
+      "max_vnum": 87496,
+      "count": 315
+    },
+    "fallen.are": {
+      "name": "[ HRO ] Nevalis  Realm of the Fallen",
+      "min_vnum": 24300,
+      "max_vnum": 24471,
+      "count": 159
+    },
+    "forestofhorrors.are": {
+      "name": "[81 90] Alecca   The Forest of Horrors",
+      "min_vnum": 17000,
+      "max_vnum": 17114,
+      "count": 147
+    },
+    "forests.are": {
+      "name": "[ ALL ] Raistlen The Forests",
+      "min_vnum": 700,
+      "max_vnum": 786,
+      "count": 95
+    },
+    "forgottentemple.are": {
+      "name": "[80 HR] Shade    The Forgotten Temple",
+      "min_vnum": 11900,
+      "max_vnum": 11929,
+      "count": 73
+    },
+    "fortress.are": {
+      "name": "[ ALL ] Raistlen The Fortress",
+      "min_vnum": 86600,
+      "max_vnum": 86698,
+      "count": 244
+    },
+    "gauntlet.are": {
+      "name": "[QUEST] Arutha   The Gauntlet",
+      "min_vnum": 500,
+      "max_vnum": 509,
+      "count": 10
+    },
+    "gianttulip.are": {
+      "name": "[ HRO ] Alecca   The Giant Tulip",
+      "min_vnum": 14700,
+      "max_vnum": 14806,
+      "count": 133
+    },
+    "gnomefactory.are": {
+      "name": "[30 HR] Epitafio Gnome Factory",
+      "min_vnum": 78000,
+      "max_vnum": 78044,
+      "count": 88
+    },
+    "gucynia.are": {
+      "name": "[80 HR] Alecca   Gucynia",
+      "min_vnum": 78100,
+      "max_vnum": 78300,
+      "count": 285
+    },
+    "guild.are": {
+      "name": "[ ALL ] Alecca   The Hall of Guilds",
+      "min_vnum": 33100,
+      "max_vnum": 33142,
+      "count": 39
+    },
+    "gypsy.are": {
+      "name": "[71 80] Alecca   Gypsy Camp",
+      "min_vnum": 11201,
+      "max_vnum": 11260,
+      "count": 97
+    },
+    "ice.are": {
+      "name": "[61 70] Alecca   Ice Battlements",
+      "min_vnum": 18200,
+      "max_vnum": 18288,
+      "count": 171
+    },
+    "isles.are": {
+      "name": "[ HRO ] Alecca   The Isles",
+      "min_vnum": 30000,
+      "max_vnum": 32256,
+      "count": 604
+    },
+    "journey.are": {
+      "name": "[ HRO ] Alecca   Tramont Keep",
+      "min_vnum": 32800,
+      "max_vnum": 32899,
+      "count": 204
+    },
+    "jurassis.are": {
+      "name": "[61 70] Alec/Mon Jurassis",
+      "min_vnum": 40000,
+      "max_vnum": 40344,
+      "count": 453
+    },
+    "karlero.are": {
+      "name": "[41 50] Alecca   The Caverns of Karlero",
+      "min_vnum": 34700,
+      "max_vnum": 34727,
+      "count": 52
+    },
+    "kingofhill.are": {
+      "name": "[QUEST] Arutha   King of the Hill",
+      "min_vnum": 510,
+      "max_vnum": 514,
+      "count": 5
+    },
+    "labyrinth.are": {
+      "name": "[QUEST] Tarru    The Labyrinth",
+      "min_vnum": 87901,
+      "max_vnum": 88067,
+      "count": 175
+    },
+    "leto.are": {
+      "name": "[ TBA ] Leto     TBA",
+      "min_vnum": 400,
+      "max_vnum": 499,
+      "count": 48
+    },
+    "llewellyn.are": {
+      "name": "[ HRO ] Alecca   Church of Llewellyn",
+      "min_vnum": 12800,
+      "max_vnum": 12837,
+      "count": 63
+    },
+    "lyonesse.are": {
+      "name": "[81 90] Alecca   Lyonesse",
+      "min_vnum": 10600,
+      "max_vnum": 10699,
+      "count": 134
+    },
+    "merall.are": {
+      "name": "[51 60] Alecca   Merrall Township",
+      "min_vnum": 10000,
+      "max_vnum": 10027,
+      "count": 63
+    },
+    "merith.are": {
+      "name": "[ 1 30] Alecca   Merith's Parlor",
+      "min_vnum": 34000,
+      "max_vnum": 34040,
+      "count": 83
+    },
+    "merrall.are": {
+      "name": "[51 60] Alecca   Merrall Township",
+      "min_vnum": 10000,
+      "max_vnum": 10027,
+      "count": 64
+    },
+    "misc.are": {
+      "name": "[ NONE] DS Imms  Miscellenea",
+      "min_vnum": 1,
+      "max_vnum": 98,
+      "count": 72
+    },
+    "mithras.are": {
+      "name": "[61 70] Alecca   Shrine of Mithras",
+      "min_vnum": 200,
+      "max_vnum": 256,
+      "count": 89
+    },
+    "mountains.are": {
+      "name": "[ ALL ] Raistlen The Mountains",
+      "min_vnum": 300,
+      "max_vnum": 395,
+      "count": 97
+    },
+    "nevalis1.are": {
+      "name": "[ HRO ] Nevalis  Chronos",
+      "min_vnum": 51901,
+      "max_vnum": 52088,
+      "count": 263
+    },
+    "nevalisarea.are": {
+      "name": "[ IMM ] Nevalis  Nevalis' Area",
+      "min_vnum": 550,
+      "max_vnum": 550,
+      "count": 1
+    },
+    "newarena.are": {
+      "name": "[QUEST] Alecca   The Lesser Arena",
+      "min_vnum": 13391,
+      "max_vnum": 13490,
+      "count": 100
+    },
+    "nprairie.are": {
+      "name": "[51 60] Alecca   Northern Prairie",
+      "min_vnum": 4600,
+      "max_vnum": 4676,
+      "count": 99
+    },
+    "obsidian.are": {
+      "name": "[61 70] Alecca   Obsidian Palace",
+      "min_vnum": 25101,
+      "max_vnum": 25398,
+      "count": 434
+    },
+    "ocean.are": {
+      "name": "[ ALL ] Epi/Rais The Ocean",
+      "min_vnum": 87700,
+      "max_vnum": 87855,
+      "count": 199
+    },
+    "olympus.are": {
+      "name": "[ ALL ] Alecca   StormPeak",
+      "min_vnum": 900,
+      "max_vnum": 961,
+      "count": 134
+    },
+    "oppidum-noctu.are": {
+      "name": "[81 90] Nevalis  Oppidus Noctum",
+      "min_vnum": 86200,
+      "max_vnum": 86252,
+      "count": 71
+    },
+    "orctower.are": {
+      "name": "[ 1 30] Shade    Orc Tower",
+      "min_vnum": 1601,
+      "max_vnum": 1720,
+      "count": 79
+    },
+    "oubliette.are": {
+      "name": "[ HRO ] Orb      The Dark Oubliette",
+      "min_vnum": 9800,
+      "max_vnum": 9872,
+      "count": 190
+    },
+    "park.are": {
+      "name": "[81 90] Alecca   Shady Breezes Park",
+      "min_vnum": 21800,
+      "max_vnum": 21834,
+      "count": 67
+    },
+    "plainsofnether.are": {
+      "name": "[ HRO ] Arutha   Plains of Nether",
+      "min_vnum": 78500,
+      "max_vnum": 78533,
+      "count": 69
+    },
+    "potpie.are": {
+      "name": "[ ALL ] Alecca   PotPie Heaven",
+      "min_vnum": 32700,
+      "max_vnum": 32703,
+      "count": 4
+    },
+    "prison.are": {
+      "name": "[41 50] Alecca   The Prison",
+      "min_vnum": 18300,
+      "max_vnum": 18399,
+      "count": 159
+    },
+    "qeq.are": {
+      "name": "[ IMM ] Arutha   Quest Equipment",
+      "min_vnum": 600,
+      "max_vnum": 664,
+      "count": 21
+    },
+    "quest.are": {
+      "name": "[QUEST] Liam     Quest Area",
+      "min_vnum": 500,
+      "max_vnum": 588,
+      "count": 153
+    },
+    "ruins.are": {
+      "name": "[ HRO ] Arutha   Lost Ruins",
+      "min_vnum": 35000,
+      "max_vnum": 35099,
+      "count": 159
+    },
+    "scrabble.are": {
+      "name": "[QUEST] Pyr/Dar  Scrabble",
+      "min_vnum": 7500,
+      "max_vnum": 7699,
+      "count": 173
+    },
+    "sevensins.are": {
+      "name": "[ HRO ] Arutha   Seven Sins",
+      "min_vnum": 20500,
+      "max_vnum": 20554,
+      "count": 117
+    },
+    "sherwood.are": {
+      "name": "[ HRO ] Alecca   Sherwood Forest",
+      "min_vnum": 35300,
+      "max_vnum": 35340,
+      "count": 80
+    },
+    "solennir.are": {
+      "name": "[ ALL ] Alecca   Solennir",
+      "min_vnum": 8000,
+      "max_vnum": 8199,
+      "count": 330
+    },
+    "soulquest.are": {
+      "name": "[ IMM ] Nevalis  Nevalis' Area",
+      "min_vnum": 550,
+      "max_vnum": 564,
+      "count": 36
+    },
+    "sprite.are": {
+      "name": "[ 1 30] Alecca   The Sprite Village",
+      "min_vnum": 100,
+      "max_vnum": 149,
+      "count": 79
+    },
+    "stormpeak.are": {
+      "name": "[ 1 30] Alecca   StormPeak",
+      "min_vnum": 900,
+      "max_vnum": 969,
+      "count": 154
+    },
+    "swamplands.are": {
+      "name": "[ ALL ] Raistlen Swamplands",
+      "min_vnum": 1300,
+      "max_vnum": 1353,
+      "count": 57
+    },
+    "tara.are": {
+      "name": "[41 50] Alecca   Tara",
+      "min_vnum": 4000,
+      "max_vnum": 4195,
+      "count": 221
+    },
+    "tarafix.are": {
+      "name": "[41 50] Alecca   Tarafix",
+      "min_vnum": 26000,
+      "max_vnum": 261261,
+      "count": 220
+    },
+    "templeofthedivine.are": {
+      "name": "[51 60] Arutha   Temple of the Divine",
+      "min_vnum": 77800,
+      "max_vnum": 77999,
+      "count": 171
+    },
+    "tournament.are": {
+      "name": "[QUEST] Arutha   Tournament Arena",
+      "min_vnum": 1000,
+      "max_vnum": 1049,
+      "count": 63
+    },
+    "tralcast.are": {
+      "name": "[51 60] Elsbeth  Tralfin Castle",
+      "min_vnum": 10000,
+      "max_vnum": 10212,
+      "count": 312
+    },
+    "tramont.are": {
+      "name": "[ HRO ] Alecca   Tramont",
+      "min_vnum": 32800,
+      "max_vnum": 32881,
+      "count": 135
+    },
+    "trillium.are": {
+      "name": "[71 80] Alecca   Trillium Caverns",
+      "min_vnum": 18800,
+      "max_vnum": 18841,
+      "count": 98
+    },
+    "trollkingdom.are": {
+      "name": "[ 1 30] Shade    Troll Kingdom",
+      "min_vnum": 2800,
+      "max_vnum": 2821,
+      "count": 37
+    },
+    "tundra.are": {
+      "name": "[ HRO ] Nevalis  The Tundra",
+      "min_vnum": 32300,
+      "max_vnum": 32385,
+      "count": 140
+    },
+    "vytal.are": {
+      "name": "[QUEST] Vytal    Vytal's Quest Area",
+      "min_vnum": 88000,
+      "max_vnum": 88060,
+      "count": 72
+    },
+    "wararena.are": {
+      "name": "[ WAR ] Alecca   The War Arena",
+      "min_vnum": 6400,
+      "max_vnum": 6468,
+      "count": 13
+    },
+    "whackamob.are": {
+      "name": "[QUEST] Alecca   Whack-A-Mob!",
+      "min_vnum": 18400,
+      "max_vnum": 18479,
+      "count": 84
+    },
+    "wrestlingring.are": {
+      "name": "[ ALL ] Arutha   Wrestling Ring",
+      "min_vnum": 33050,
+      "max_vnum": 33099,
+      "count": 118
+    },
+    "xarahad.are": {
+      "name": "[ HRO ] Alecca   Xarahad",
+      "min_vnum": 33300,
+      "max_vnum": 33586,
+      "count": 255
+    },
+    "yrarl.are": {
+      "name": "[31 40] Alecca   Castle Yrarl",
+      "min_vnum": 23500,
+      "max_vnum": 23669,
+      "count": 211
+    },
+    "zodiac.are": {
+      "name": "[ HRO ] Shade    Zodiac",
+      "min_vnum": 1900,
+      "max_vnum": 1962,
+      "count": 104
+    }
+  },
+  "wired_present": [
+    {
+      "command": "abusy",
+      "function": "do_abusy",
+      "file": "arena.c",
+      "line": 847,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "accept",
+      "function": "do_accept",
+      "file": "arena.c",
+      "line": 547,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "aclear",
+      "function": "do_aclear",
+      "file": "arena.c",
+      "line": 812,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "addaffect",
+      "function": "do_addaffect",
+      "file": "act_wiz.c",
+      "line": 8804,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "advance",
+      "function": "do_advance",
+      "file": "act_wiz.c",
+      "line": 4705,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "aedit",
+      "function": "do_aedit",
+      "file": "olc_area.c",
+      "line": 60,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "affects",
+      "function": "do_affects",
+      "file": "act_info.c",
+      "line": 3687,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "afk",
+      "function": "do_afk",
+      "file": "act_comm.c",
+      "line": 451,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "agenda",
+      "function": "do_agenda",
+      "file": "todo.c",
+      "line": 255,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alia",
+      "function": "do_alia",
+      "file": "alias.c",
+      "line": 102,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alias",
+      "function": "do_alias",
+      "file": "alias.c",
+      "line": 111,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alinks",
+      "function": "do_alinks",
+      "file": "olc.c",
+      "line": 950,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alist",
+      "function": "do_alist",
+      "file": "olc.c",
+      "line": 866,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alliance",
+      "function": "do_alliance",
+      "file": "newclan.c",
+      "line": 1325,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "allow",
+      "function": "do_allow",
+      "file": "ban.c",
+      "line": 317,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "allpeace",
+      "function": "do_allpeace",
+      "file": "act_wiz.c",
+      "line": 1784,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "alock",
+      "function": "do_alock",
+      "file": "arena.c",
+      "line": 885,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "ansi",
+      "function": "do_colour",
+      "file": "act_comm.c",
+      "line": 2278,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "answer",
+      "function": "do_answer",
+      "file": "chan.c",
+      "line": 656,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "areas",
+      "function": "do_areas",
+      "file": "db.c",
+      "line": 1464,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "arena",
+      "function": "do_arena",
+      "file": "chan.c",
+      "line": 300,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "asave",
+      "function": "do_asave",
+      "file": "db_new.c",
+      "line": 455,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "aschar",
+      "function": "do_aschar",
+      "file": "act_wiz.c",
+      "line": 8634,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "ask",
+      "function": "do_ask",
+      "file": "chan.c",
+      "line": 633,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "assblow",
+      "function": "do_assblow",
+      "file": "act_wiz.c",
+      "line": 11227,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "astat",
+      "function": "do_astat",
+      "file": "arena.c",
+      "line": 923,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "at",
+      "function": "do_at",
+      "file": "act_wiz.c",
+      "line": 1933,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "auction",
+      "function": "do_auction",
+      "file": "auction.c",
+      "line": 45,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "autoall",
+      "function": "do_autoall",
+      "file": "act_info.c",
+      "line": 1224,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autoassist",
+      "function": "do_autoassist",
+      "file": "act_info.c",
+      "line": 1243,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autoexit",
+      "function": "do_autoexit",
+      "file": "act_info.c",
+      "line": 1263,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autogold",
+      "function": "do_autogold",
+      "file": "act_info.c",
+      "line": 1283,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autolist",
+      "function": "do_autolist",
+      "file": "act_info.c",
+      "line": 1158,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autoloot",
+      "function": "do_autoloot",
+      "file": "act_info.c",
+      "line": 1303,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autopeek",
+      "function": "do_autopeek",
+      "file": "act_info.c",
+      "line": 1363,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autosac",
+      "function": "do_autosac",
+      "file": "act_info.c",
+      "line": 1323,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autosplit",
+      "function": "do_autosplit",
+      "file": "act_info.c",
+      "line": 1343,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "autostore",
+      "function": "do_autostore",
+      "file": "act_comm.c",
+      "line": 486,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "avatar",
+      "function": "do_avatar",
+      "file": "act_wiz.c",
+      "line": 4603,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "backup",
+      "function": "do_backup",
+      "file": "save.c",
+      "line": 155,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "balance",
+      "function": "do_balance",
+      "file": "act_npc.c",
+      "line": 1394,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "ban",
+      "function": "do_ban",
+      "file": "ban.c",
+      "line": 301,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "banzai",
+      "function": "do_banzai",
+      "file": "dopple.c",
+      "line": 2184,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "barter",
+      "function": "do_barter",
+      "file": "chan.c",
+      "line": 459,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "battle",
+      "function": "do_battle",
+      "file": "act_info.c",
+      "line": 6551,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "bind",
+      "function": "do_bind",
+      "file": "skills.c",
+      "line": 956,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "bounty",
+      "function": "do_bounty",
+      "file": "act_comm.c",
+      "line": 2406,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "brandish",
+      "function": "do_brandish",
+      "file": "act_obj.c",
+      "line": 3739,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "brew",
+      "function": "do_brew",
+      "file": "skills.c",
+      "line": 1091,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "brief",
+      "function": "do_brief",
+      "file": "act_info.c",
+      "line": 1383,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "bug",
+      "function": "do_bug",
+      "file": "todo.c",
+      "line": 288,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "build",
+      "function": "do_build",
+      "file": "act_comm.c",
+      "line": 433,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "buy",
+      "function": "do_buy",
+      "file": "act_npc.c",
+      "line": 637,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "camouflage",
+      "function": "do_camouflage",
+      "file": "act_move.c",
+      "line": 2630,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "cast",
+      "function": "do_cast",
+      "file": "magic.c",
+      "line": 551,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "cbalance",
+      "function": "do_clanbalance",
+      "file": "newclan.c",
+      "line": 1005,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "cdeposit",
+      "function": "do_clandeposit",
+      "file": "newclan.c",
+      "line": 1072,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "cdonate",
+      "function": "do_cdonate",
+      "file": "act_obj.c",
+      "line": 849,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "cgrant",
+      "function": "do_cgrant",
+      "file": "newclan.c",
+      "line": 1574,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "challenge",
+      "function": "do_challenge",
+      "file": "arena.c",
+      "line": 472,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "chameleon",
+      "function": "do_chameleon",
+      "file": "dopple.c",
+      "line": 1375,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "changed",
+      "function": "do_changed",
+      "file": "todo.c",
+      "line": 273,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "changes",
+      "function": "do_changes",
+      "file": "note.c",
+      "line": 218,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "channels",
+      "function": "do_channels",
+      "file": "chan.c",
+      "line": 178,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "chat",
+      "function": "do_chat",
+      "file": "act_comm.c",
+      "line": 1017,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "check",
+      "function": "do_check",
+      "file": "act_wiz.c",
+      "line": 300,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clan",
+      "function": "do_clantalk",
+      "file": "chan.c",
+      "line": 725,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "clanbalance",
+      "function": "do_clanbalance",
+      "file": "newclan.c",
+      "line": 1005,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clanbalancewipe",
+      "function": "do_clanbalancewipe",
+      "file": "newclan.c",
+      "line": 1727,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clandeposit",
+      "function": "do_clandeposit",
+      "file": "newclan.c",
+      "line": 1072,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clanexile",
+      "function": "do_clanexile",
+      "file": "newclan.c",
+      "line": 1773,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "claninfo",
+      "function": "do_claninfo",
+      "file": "note.c",
+      "line": 204,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "clanpks",
+      "function": "do_clanpks",
+      "file": "newclan.c",
+      "line": 1848,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "clanwar",
+      "function": "do_clanwar",
+      "file": "newclan.c",
+      "line": 1980,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "clanwithdraw",
+      "function": "do_clanwithdraw",
+      "file": "newclan.c",
+      "line": 1195,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "class",
+      "function": "do_class",
+      "file": "skills.c",
+      "line": 649,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "classifieds",
+      "function": "do_classifieds",
+      "file": "note.c",
+      "line": 209,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "classtalk",
+      "function": "do_classtalk",
+      "file": "chan.c",
+      "line": 790,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clead",
+      "function": "do_clead",
+      "file": "newclan.c",
+      "line": 689,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "clone",
+      "function": "do_clone",
+      "file": "act_wiz.c",
+      "line": 4140,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "close",
+      "function": "do_close",
+      "file": "act_move.c",
+      "line": 1263,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "color",
+      "function": "do_colour",
+      "file": "act_comm.c",
+      "line": 2278,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "colour",
+      "function": "do_colour",
+      "file": "act_comm.c",
+      "line": 2278,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "combine",
+      "function": "do_combine",
+      "file": "act_info.c",
+      "line": 1492,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "commands",
+      "function": "do_commands",
+      "file": "interp.c",
+      "line": 1036,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "compact",
+      "function": "do_compact",
+      "file": "act_info.c",
+      "line": 1400,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "compare",
+      "function": "do_compare",
+      "file": "act_info.c",
+      "line": 4953,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "components",
+      "function": "do_complist",
+      "file": "act_info.c",
+      "line": 6891,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "confirm",
+      "function": "do_confirm",
+      "file": "act_info.c",
+      "line": 6921,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "connect",
+      "function": "do_connect",
+      "file": "act_npc.c",
+      "line": 2243,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "consider",
+      "function": "do_consider",
+      "file": "act_info.c",
+      "line": 5421,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "consume",
+      "function": "do_consume",
+      "file": "act_obj.c",
+      "line": 5129,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "convert",
+      "function": "do_convert",
+      "file": "act_wiz.c",
+      "line": 10608,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "cooltalk",
+      "function": "do_cooltalk",
+      "file": "chan.c",
+      "line": 930,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "copyove",
+      "function": "do_copyove",
+      "file": "act_wiz.c",
+      "line": 3688,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "corner",
+      "function": "do_corner",
+      "file": "act_wiz.c",
+      "line": 1590,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "count",
+      "function": "do_count",
+      "file": "act_info.c",
+      "line": 4859,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "craft",
+      "function": "do_craft",
+      "file": "skills.c",
+      "line": 1825,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "crecall",
+      "function": "do_crecall",
+      "file": "act_move.c",
+      "line": 2982,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "credits",
+      "function": "do_credits",
+      "file": "act_info.c",
+      "line": 5072,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "curse",
+      "function": "do_curse",
+      "file": "act_npc.c",
+      "line": 214,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "custom",
+      "function": "do_custom",
+      "file": "act_info.c",
+      "line": 6045,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "cutpurse",
+      "function": "do_cutpurse",
+      "file": "dopple.c",
+      "line": 2374,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "cwithdraw",
+      "function": "do_clanwithdraw",
+      "file": "newclan.c",
+      "line": 1195,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "dcreate",
+      "function": "do_dcreate",
+      "file": "item_drop.c",
+      "line": 1515,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "deaf",
+      "function": "do_deaf",
+      "file": "chan.c",
+      "line": 283,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "decline",
+      "function": "do_decline",
+      "file": "arena.c",
+      "line": 636,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "delet",
+      "function": "do_delet",
+      "file": "act_comm.c",
+      "line": 94,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "delete",
+      "function": "do_delete",
+      "file": "act_comm.c",
+      "line": 102,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "deny",
+      "function": "do_deny",
+      "file": "act_wiz.c",
+      "line": 1184,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "deposit",
+      "function": "do_deposit",
+      "file": "act_npc.c",
+      "line": 1423,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "description",
+      "function": "do_description",
+      "file": "act_info.c",
+      "line": 5649,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "destroy",
+      "function": "do_destroy",
+      "file": "act_obj.c",
+      "line": 3505,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "devour",
+      "function": "do_devour",
+      "file": "dopple.c",
+      "line": 2279,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "dice",
+      "function": "do_dice",
+      "file": "act_info.c",
+      "line": 7003,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "disabl",
+      "function": "do_disabl",
+      "file": "interp.c",
+      "line": 1113,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "disable",
+      "function": "do_disable",
+      "file": "interp.c",
+      "line": 1119,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "disconnect",
+      "function": "do_disconnect",
+      "file": "act_wiz.c",
+      "line": 1275,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "donate",
+      "function": "do_donate",
+      "file": "act_obj.c",
+      "line": 744,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "doof",
+      "function": "do_doof",
+      "file": "act_wiz.c",
+      "line": 1352,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "doorbash",
+      "function": "do_doorbash",
+      "file": "act_move.c",
+      "line": 1776,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "dopple",
+      "function": "do_dopple",
+      "file": "dopple.c",
+      "line": 621,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "dorca",
+      "function": "do_dorca",
+      "file": "act_wiz.c",
+      "line": 10910,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "double",
+      "function": "do_double",
+      "file": "act_wiz.c",
+      "line": 5440,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "down",
+      "function": "do_down",
+      "file": "act_move.c",
+      "line": 866,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "drag",
+      "function": "do_drag",
+      "file": "act_move.c",
+      "line": 4348,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "drink",
+      "function": "do_drink",
+      "file": "act_obj.c",
+      "line": 2171,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "drop",
+      "function": "do_drop",
+      "file": "act_obj.c",
+      "line": 1303,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "dump",
+      "function": "do_dump",
+      "file": "db.c",
+      "line": 1602,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "dupe",
+      "function": "do_dupe",
+      "file": "act_wiz.c",
+      "line": 8079,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "east",
+      "function": "do_east",
+      "file": "act_move.c",
+      "line": 802,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "eat",
+      "function": "do_eat",
+      "file": "act_obj.c",
+      "line": 2449,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "echo",
+      "function": "do_recho",
+      "file": "act_wiz.c",
+      "line": 1482,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "emote",
+      "function": "do_emote",
+      "file": "act_comm.c",
+      "line": 1158,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "enter",
+      "function": "do_enter",
+      "file": "act_move.c",
+      "line": 942,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "envenom",
+      "function": "do_envenom",
+      "file": "act_obj.c",
+      "line": 1837,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "equipment",
+      "function": "do_equipment",
+      "file": "act_info.c",
+      "line": 4918,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "examine",
+      "function": "do_examine",
+      "file": "act_info.c",
+      "line": 2013,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "excalibur",
+      "function": "do_excalibur",
+      "file": "skills.c",
+      "line": 2922,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "exectalk",
+      "function": "do_exectalk",
+      "file": "chan.c",
+      "line": 879,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "execute",
+      "function": "do_execute",
+      "file": "act_wiz.c",
+      "line": 10441,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "exits",
+      "function": "do_exits",
+      "file": "act_info.c",
+      "line": 2098,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "fabricate",
+      "function": "do_fabricate",
+      "file": "skills.c",
+      "line": 2345,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "fill",
+      "function": "do_fill",
+      "file": "act_obj.c",
+      "line": 1947,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "finger",
+      "function": "do_finger",
+      "file": "finger.c",
+      "line": 39,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "flag",
+      "function": "do_flag",
+      "file": "flags.c",
+      "line": 35,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "flame",
+      "function": "do_flame",
+      "file": "chan.c",
+      "line": 702,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "follow",
+      "function": "do_follow",
+      "file": "act_comm.c",
+      "line": 1491,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "forage",
+      "function": "do_forage",
+      "file": "skills.c",
+      "line": 1638,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "force",
+      "function": "do_force",
+      "file": "act_wiz.c",
+      "line": 7257,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "forget",
+      "function": "do_forget",
+      "file": "forget.c",
+      "line": 34,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "form",
+      "function": "do_form",
+      "file": "dopple.c",
+      "line": 1466,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "fourth",
+      "function": "do_fourth",
+      "file": "act_obj.c",
+      "line": 4571,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "freeze",
+      "function": "do_freeze",
+      "file": "act_wiz.c",
+      "line": 5042,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "ftick",
+      "function": "do_ftick",
+      "file": "act_wiz.c",
+      "line": 7241,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "gain",
+      "function": "do_gain",
+      "file": "act_npc.c",
+      "line": 1625,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "gamestats",
+      "function": "do_gamestats",
+      "file": "act_info.c",
+      "line": 6636,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "gecho",
+      "function": "do_echo",
+      "file": "act_wiz.c",
+      "line": 1432,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "get",
+      "function": "do_get",
+      "file": "act_obj.c",
+      "line": 394,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "ghost",
+      "function": "do_ghost",
+      "file": "act_wiz.c",
+      "line": 7522,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "give",
+      "function": "do_give",
+      "file": "act_obj.c",
+      "line": 1549,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "globcast",
+      "function": "do_globcast",
+      "file": "act_wiz.c",
+      "line": 8710,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "go",
+      "function": "do_enter",
+      "file": "act_move.c",
+      "line": 942,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "goto",
+      "function": "do_goto",
+      "file": "act_wiz.c",
+      "line": 1994,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "grant",
+      "function": "do_grant",
+      "file": "grant.c",
+      "line": 241,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "grats",
+      "function": "do_grats",
+      "file": "chan.c",
+      "line": 587,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "grimcleaver",
+      "function": "do_grimcleaver",
+      "file": "skills.c",
+      "line": 2987,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "group",
+      "function": "do_group",
+      "file": "act_comm.c",
+      "line": 1858,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "groups",
+      "function": "do_groups",
+      "file": "skills.c",
+      "line": 570,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "grow",
+      "function": "do_grow",
+      "file": "dopple.c",
+      "line": 1668,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "gset",
+      "function": "do_gset",
+      "file": "act_wiz.c",
+      "line": 7710,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "gtell",
+      "function": "do_gtell",
+      "file": "act_comm.c",
+      "line": 2208,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "guild",
+      "function": "do_guild",
+      "file": "newclan.c",
+      "line": 734,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "gwho",
+      "function": "do_gwho",
+      "file": "act_wiz.c",
+      "line": 10637,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "heal",
+      "function": "do_heal",
+      "file": "act_npc.c",
+      "line": 48,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "hedit",
+      "function": "do_hedit",
+      "file": "olc_help.c",
+      "line": 53,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "help",
+      "function": "do_help",
+      "file": "act_info.c",
+      "line": 3942,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "herotalk",
+      "function": "do_herotalk",
+      "file": "chan.c",
+      "line": 816,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "hide",
+      "function": "do_hide",
+      "file": "act_move.c",
+      "line": 2553,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "hold",
+      "function": "do_wear",
+      "file": "act_obj.c",
+      "line": 3201,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "holylight",
+      "function": "do_holylight",
+      "file": "act_wiz.c",
+      "line": 7571,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "ic",
+      "function": "do_ic",
+      "file": "chan.c",
+      "line": 482,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "idea",
+      "function": "do_idea",
+      "file": "note.c",
+      "line": 189,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "idle",
+      "function": "do_idle",
+      "file": "act_wiz.c",
+      "line": 10697,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "immkiss",
+      "function": "do_immkiss",
+      "file": "act_wiz.c",
+      "line": 5000,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "immnote",
+      "function": "do_immnote",
+      "file": "note.c",
+      "line": 214,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "immtalk",
+      "function": "do_immtalk",
+      "file": "chan.c",
+      "line": 955,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "imotd",
+      "function": "do_imotd",
+      "file": "act_info.c",
+      "line": 1132,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "incognito",
+      "function": "do_incognito",
+      "file": "act_wiz.c",
+      "line": 7473,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "index",
+      "function": "do_index",
+      "file": "act_info.c",
+      "line": 3872,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "info",
+      "function": "do_groups",
+      "file": "skills.c",
+      "line": 570,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "inventory",
+      "function": "do_inventory",
+      "file": "act_info.c",
+      "line": 4903,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "invis",
+      "function": "do_invis",
+      "file": "act_wiz.c",
+      "line": 7404,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "iquest",
+      "function": "do_iquest",
+      "file": "act_wiz.c",
+      "line": 750,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "junk",
+      "function": "do_sacrifice",
+      "file": "act_obj.c",
+      "line": 3328,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "leveltalk",
+      "function": "do_leveltalk",
+      "file": "chan.c",
+      "line": 1039,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "list",
+      "function": "do_list",
+      "file": "act_npc.c",
+      "line": 937,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "load",
+      "function": "do_load",
+      "file": "act_wiz.c",
+      "line": 4262,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "lock",
+      "function": "do_lock",
+      "file": "act_move.c",
+      "line": 1416,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "log",
+      "function": "do_log",
+      "file": "act_wiz.c",
+      "line": 5206,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "long",
+      "function": "do_long",
+      "file": "act_info.c",
+      "line": 1417,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "look",
+      "function": "do_look",
+      "file": "act_info.c",
+      "line": 1700,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "lore",
+      "function": "do_lore",
+      "file": "act_obj.c",
+      "line": 4195,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "medit",
+      "function": "do_medit",
+      "file": "olc_mobile.c",
+      "line": 263,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "member",
+      "function": "do_member",
+      "file": "newclan.c",
+      "line": 340,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "memory",
+      "function": "do_memory",
+      "file": "db.c",
+      "line": 1510,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mlevel",
+      "function": "do_mlevel",
+      "file": "act_wiz.c",
+      "line": 6793,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mortify",
+      "function": "do_mortify",
+      "file": "act_wiz.c",
+      "line": 215,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "motd",
+      "function": "do_motd",
+      "file": "act_info.c",
+      "line": 1124,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mpoint",
+      "function": "do_mpoint",
+      "file": "act_wiz.c",
+      "line": 7678,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mquest",
+      "function": "do_mquest",
+      "file": "act_wiz.c",
+      "line": 7646,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mudstat",
+      "function": "do_mudstat",
+      "file": "mudstat.c",
+      "line": 14,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "music",
+      "function": "do_music",
+      "file": "chan.c",
+      "line": 679,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "mwhere",
+      "function": "do_mwhere",
+      "file": "act_wiz.c",
+      "line": 3574,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "mytodo",
+      "function": "do_mytodo",
+      "file": "todo.c",
+      "line": 279,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "neetotalk",
+      "function": "do_neetotalk",
+      "file": "chan.c",
+      "line": 905,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "newbie",
+      "function": "do_newbie",
+      "file": "chan.c",
+      "line": 530,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "newbiekiller",
+      "function": "do_newbiekiller",
+      "file": "act_wiz.c",
+      "line": 10282,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "newlock",
+      "function": "do_newlock",
+      "file": "act_wiz.c",
+      "line": 5483,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nk",
+      "function": "do_newbiekiller",
+      "file": "act_wiz.c",
+      "line": 10282,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nocancel",
+      "function": "do_nocancel",
+      "file": "act_info.c",
+      "line": 1611,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nochannels",
+      "function": "do_nochannels",
+      "file": "act_wiz.c",
+      "line": 978,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "noclan",
+      "function": "do_noclan",
+      "file": "newclan.c",
+      "line": 556,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nofollow",
+      "function": "do_nofollow",
+      "file": "act_info.c",
+      "line": 1550,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nohint",
+      "function": "do_nohint",
+      "file": "act_comm.c",
+      "line": 553,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "noloot",
+      "function": "do_noloot",
+      "file": "act_info.c",
+      "line": 1530,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "noquest",
+      "function": "do_noquest",
+      "file": "act_wiz.c",
+      "line": 10720,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "noreply",
+      "function": "do_noreply",
+      "file": "act_comm.c",
+      "line": 1081,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "norestore",
+      "function": "do_norestore",
+      "file": "act_wiz.c",
+      "line": 5098,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "north",
+      "function": "do_north",
+      "file": "act_move.c",
+      "line": 787,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "noshout",
+      "function": "do_noshout",
+      "file": "act_wiz.c",
+      "line": 5317,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "nosummon",
+      "function": "do_nosummon",
+      "file": "act_info.c",
+      "line": 1578,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "note",
+      "function": "do_note",
+      "file": "note.c",
+      "line": 184,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "notell",
+      "function": "do_notell",
+      "file": "act_wiz.c",
+      "line": 5371,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "notitle",
+      "function": "do_notitle",
+      "file": "act_wiz.c",
+      "line": 5152,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "notransport",
+      "function": "do_notransport",
+      "file": "act_info.c",
+      "line": 1509,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "noview",
+      "function": "do_noview",
+      "file": "act_wiz.c",
+      "line": 10222,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "nowar",
+      "function": "do_nowar",
+      "file": "chan.c",
+      "line": 320,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "oedit",
+      "function": "do_oedit",
+      "file": "olc_object.c",
+      "line": 104,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "offer",
+      "function": "do_offer",
+      "file": "act_obj.c",
+      "line": 5168,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "ointment",
+      "function": "do_ointment",
+      "file": "skills.c",
+      "line": 2097,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "olc",
+      "function": "do_olc",
+      "file": "chan.c",
+      "line": 1000,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "olevel",
+      "function": "do_olevel",
+      "file": "act_wiz.c",
+      "line": 6622,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "oleveltrue",
+      "function": "do_oleveltrue",
+      "file": "act_wiz.c",
+      "line": 6706,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "ooc",
+      "function": "do_ooc",
+      "file": "chan.c",
+      "line": 507,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "open",
+      "function": "do_open",
+      "file": "act_move.c",
+      "line": 1120,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "order",
+      "function": "do_order",
+      "file": "act_comm.c",
+      "line": 1685,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "otype",
+      "function": "do_otype",
+      "file": "act_wiz.c",
+      "line": 11347,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "owhere",
+      "function": "do_owhere",
+      "file": "act_wiz.c",
+      "line": 3459,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pack",
+      "function": "do_pack",
+      "file": "act_wiz.c",
+      "line": 7851,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "paradox",
+      "function": "do_paradox",
+      "file": "paradox.c",
+      "line": 70,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pardon",
+      "function": "do_pardon",
+      "file": "act_wiz.c",
+      "line": 1397,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "password",
+      "function": "do_password",
+      "file": "act_info.c",
+      "line": 5822,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pbite",
+      "function": "do_pbite",
+      "file": "dopple.c",
+      "line": 2116,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "peace",
+      "function": "do_peace",
+      "file": "act_wiz.c",
+      "line": 5419,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pecho",
+      "function": "do_pecho",
+      "file": "act_wiz.c",
+      "line": 1540,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "peek",
+      "function": "do_peek",
+      "file": "act_info.c",
+      "line": 972,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "penalty",
+      "function": "do_penalty",
+      "file": "note.c",
+      "line": 194,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "penance",
+      "function": "do_penance",
+      "file": "newclan.c",
+      "line": 666,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "permban",
+      "function": "do_permban",
+      "file": "ban.c",
+      "line": 309,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pick",
+      "function": "do_pick",
+      "file": "act_move.c",
+      "line": 1637,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "play",
+      "function": "do_play",
+      "file": "music.c",
+      "line": 196,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "pmote",
+      "function": "do_pmote",
+      "file": "act_comm.c",
+      "line": 1174,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "pokepaine",
+      "function": "do_pokepaine",
+      "file": "act_wiz.c",
+      "line": 10776,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "polymorph",
+      "function": "do_polymorph",
+      "file": "act_move.c",
+      "line": 3010,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "poofin",
+      "function": "do_bamfin",
+      "file": "act_wiz.c",
+      "line": 1118,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "poofout",
+      "function": "do_bamfout",
+      "file": "act_wiz.c",
+      "line": 1151,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pose",
+      "function": "do_pose",
+      "file": "act_comm.c",
+      "line": 1254,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "pour",
+      "function": "do_pour",
+      "file": "act_obj.c",
+      "line": 2041,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "practice",
+      "function": "do_practice",
+      "file": "act_npc.c",
+      "line": 1852,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "prefi",
+      "function": "do_prefi",
+      "file": "act_wiz.c",
+      "line": 7593,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "prefix",
+      "function": "do_prefix",
+      "file": "act_wiz.c",
+      "line": 7602,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "prize",
+      "function": "do_prize",
+      "file": "act_wiz.c",
+      "line": 8197,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "prompt",
+      "function": "do_prompt",
+      "file": "act_info.c",
+      "line": 1451,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "protect",
+      "function": "do_protect",
+      "file": "act_wiz.c",
+      "line": 3875,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "purge",
+      "function": "do_purge",
+      "file": "act_wiz.c",
+      "line": 4518,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "push",
+      "function": "do_push",
+      "file": "act_move.c",
+      "line": 4176,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "put",
+      "function": "do_put",
+      "file": "act_obj.c",
+      "line": 966,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "qforce",
+      "function": "do_qforce",
+      "file": "act_wiz.c",
+      "line": 10336,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "qgossip",
+      "function": "do_qgossip",
+      "file": "chan.c",
+      "line": 558,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "qname",
+      "function": "do_qname",
+      "file": "act_wiz.c",
+      "line": 905,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "qrestore",
+      "function": "do_qrestore",
+      "file": "act_wiz.c",
+      "line": 1612,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "qtrans",
+      "function": "do_qtrans",
+      "file": "act_wiz.c",
+      "line": 1650,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "quaff",
+      "function": "do_quaff",
+      "file": "act_obj.c",
+      "line": 3562,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "quest",
+      "function": "do_quest",
+      "file": "quest.c",
+      "line": 544,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "questinfo",
+      "function": "do_questinfo",
+      "file": "note.c",
+      "line": 199,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "qui",
+      "function": "do_qui",
+      "file": "act_comm.c",
+      "line": 1293,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "quiet",
+      "function": "do_quiet",
+      "file": "chan.c",
+      "line": 337,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "quit",
+      "function": "do_quit",
+      "file": "act_comm.c",
+      "line": 1302,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "quote",
+      "function": "do_quote",
+      "file": "chan.c",
+      "line": 610,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "racetalk",
+      "function": "do_racetalk",
+      "file": "chan.c",
+      "line": 764,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "rank",
+      "function": "do_rank",
+      "file": "rank.c",
+      "line": 77,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "read",
+      "function": "do_read",
+      "file": "act_info.c",
+      "line": 2005,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "reboo",
+      "function": "do_reboo",
+      "file": "act_wiz.c",
+      "line": 3679,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "reboot",
+      "function": "do_reboot",
+      "file": "act_wiz.c",
+      "line": 3748,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "recall",
+      "function": "do_recall",
+      "file": "act_move.c",
+      "line": 2892,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "recite",
+      "function": "do_recite",
+      "file": "act_obj.c",
+      "line": 3644,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "recover",
+      "function": "do_recover",
+      "file": "act_npc.c",
+      "line": 1289,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "redit",
+      "function": "do_redit",
+      "file": "olc_room.c",
+      "line": 103,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "registerp",
+      "function": "do_registerp",
+      "file": "act_info.c",
+      "line": 6991,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "registerpk",
+      "function": "do_registerpk",
+      "file": "act_info.c",
+      "line": 6951,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "remaffect",
+      "function": "do_remaffect",
+      "file": "act_wiz.c",
+      "line": 8949,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "remembe",
+      "function": "do_remembe",
+      "file": "forget.c",
+      "line": 138,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "remember",
+      "function": "do_remember",
+      "file": "forget.c",
+      "line": 144,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "remor",
+      "function": "do_rerol",
+      "file": "act_comm.c",
+      "line": 186,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "remort",
+      "function": "do_remort",
+      "file": "act_comm.c",
+      "line": 194,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "remove",
+      "function": "do_remove",
+      "file": "act_obj.c",
+      "line": 3255,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "rename",
+      "function": "do_rename",
+      "file": "act_wiz.c",
+      "line": 105,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "rent",
+      "function": "do_rent",
+      "file": "act_comm.c",
+      "line": 1284,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "repair",
+      "function": "do_repair",
+      "file": "act_obj.c",
+      "line": 4893,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "repent",
+      "function": "do_repent",
+      "file": "act_npc.c",
+      "line": 339,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "replay",
+      "function": "do_replay",
+      "file": "act_comm.c",
+      "line": 503,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "reply",
+      "function": "do_reply",
+      "file": "act_comm.c",
+      "line": 977,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "report",
+      "function": "do_report",
+      "file": "act_info.c",
+      "line": 5734,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "rerol",
+      "function": "do_rerol",
+      "file": "act_comm.c",
+      "line": 186,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "reroll",
+      "function": "do_reroll",
+      "file": "act_comm.c",
+      "line": 310,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "resetarena",
+      "function": "do_resetarena",
+      "file": "arena.c",
+      "line": 418,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "rest",
+      "function": "do_rest",
+      "file": "act_move.c",
+      "line": 1967,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "restore",
+      "function": "do_restore",
+      "file": "act_wiz.c",
+      "line": 4901,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "restring",
+      "function": "do_restring",
+      "file": "act_obj.c",
+      "line": 2358,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "return",
+      "function": "do_return",
+      "file": "act_wiz.c",
+      "line": 4075,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "revert",
+      "function": "do_revert",
+      "file": "skills.c",
+      "line": 1546,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "revoke",
+      "function": "do_revoke",
+      "file": "grant.c",
+      "line": 387,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "roster",
+      "function": "do_roster",
+      "file": "newclan.c",
+      "line": 616,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "rsedit",
+      "function": "do_rsedit",
+      "file": "olc_reset.c",
+      "line": 104,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "rules",
+      "function": "do_rules",
+      "file": "act_info.c",
+      "line": 1140,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sacrifice",
+      "function": "do_sacrifice",
+      "file": "act_obj.c",
+      "line": 3328,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "save",
+      "function": "do_save",
+      "file": "act_comm.c",
+      "line": 1455,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "say",
+      "function": "do_say",
+      "file": "act_comm.c",
+      "line": 639,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "scan",
+      "function": "do_scan",
+      "file": "act_info.c",
+      "line": 6412,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "scatter",
+      "function": "do_scatter",
+      "file": "act_wiz.c",
+      "line": 11039,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "score",
+      "function": "do_score",
+      "file": "act_info.c",
+      "line": 3466,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "score2",
+      "function": "do_score2",
+      "file": "act_info.c",
+      "line": 2582,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "score3",
+      "function": "do_score3",
+      "file": "act_info.c",
+      "line": 2803,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "score4",
+      "function": "do_score4",
+      "file": "act_info.c",
+      "line": 3024,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "score5",
+      "function": "do_score5",
+      "file": "act_info.c",
+      "line": 3245,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "scribe",
+      "function": "do_scribe",
+      "file": "skills.c",
+      "line": 1308,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "scroll",
+      "function": "do_scroll",
+      "file": "act_info.c",
+      "line": 1048,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "search",
+      "function": "do_search",
+      "file": "act_info.c",
+      "line": 6370,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "second",
+      "function": "do_second",
+      "file": "act_obj.c",
+      "line": 4234,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "secset",
+      "function": "do_secset",
+      "file": "olc.c",
+      "line": 1011,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sell",
+      "function": "do_sell",
+      "file": "act_npc.c",
+      "line": 1039,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "set",
+      "function": "do_set",
+      "file": "act_wiz.c",
+      "line": 5549,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "shadowstep",
+      "function": "do_shadowstep",
+      "file": "act_move.c",
+      "line": 3382,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "shadowwalk",
+      "function": "do_shadow_walk",
+      "file": "act_move.c",
+      "line": 2474,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "shield",
+      "function": "do_shield",
+      "file": "act_wiz.c",
+      "line": 261,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "shift",
+      "function": "do_shift",
+      "file": "act_info.c",
+      "line": 5939,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "shout",
+      "function": "do_shout",
+      "file": "act_comm.c",
+      "line": 687,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "show",
+      "function": "do_show",
+      "file": "act_info.c",
+      "line": 1434,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "showclass",
+      "function": "do_showclass",
+      "file": "act_wiz.c",
+      "line": 10051,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "showequip",
+      "function": "do_sequip",
+      "file": "act_wiz.c",
+      "line": 9809,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "showskill",
+      "function": "do_showskill",
+      "file": "act_wiz.c",
+      "line": 9999,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "shroud",
+      "function": "do_shroud",
+      "file": "act_move.c",
+      "line": 4580,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "shutdow",
+      "function": "do_shutdow",
+      "file": "act_wiz.c",
+      "line": 3801,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "shutdown",
+      "function": "do_shutdown",
+      "file": "act_wiz.c",
+      "line": 3844,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sign",
+      "function": "do_sign",
+      "file": "sign.c",
+      "line": 36,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sit",
+      "function": "do_sit",
+      "file": "act_move.c",
+      "line": 2111,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "skills",
+      "function": "do_skills",
+      "file": "skills.c",
+      "line": 115,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sla",
+      "function": "do_sla",
+      "file": "act_wiz.c",
+      "line": 9946,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "slay",
+      "function": "do_slay",
+      "file": "act_wiz.c",
+      "line": 9955,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sleep",
+      "function": "do_sleep",
+      "file": "act_move.c",
+      "line": 2244,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "slide",
+      "function": "do_slide",
+      "file": "act_obj.c",
+      "line": 5003,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "slot",
+      "function": "do_slot",
+      "file": "act_info.c",
+      "line": 6684,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "slowns",
+      "function": "do_slowns",
+      "file": "act_wiz.c",
+      "line": 10106,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "smote",
+      "function": "do_smote",
+      "file": "act_wiz.c",
+      "line": 1025,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "smother",
+      "function": "do_smother",
+      "file": "skills.c",
+      "line": 1031,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "sneak",
+      "function": "do_sneak",
+      "file": "act_move.c",
+      "line": 2358,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "snoop",
+      "function": "do_snoop",
+      "file": "act_wiz.c",
+      "line": 3909,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "socedit",
+      "function": "do_socedit",
+      "file": "olc_social.c",
+      "line": 55,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "socials",
+      "function": "do_socials",
+      "file": "act_info.c",
+      "line": 1098,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sockets",
+      "function": "do_sockets",
+      "file": "act_wiz.c",
+      "line": 7181,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "south",
+      "function": "do_south",
+      "file": "act_move.c",
+      "line": 817,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "spells",
+      "function": "do_spells",
+      "file": "skills.c",
+      "line": 45,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "spellup",
+      "function": "do_spellup",
+      "file": "act_wiz.c",
+      "line": 8476,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "split",
+      "function": "do_split",
+      "file": "act_comm.c",
+      "line": 2045,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "sprint",
+      "function": "do_sprint",
+      "file": "act_move.c",
+      "line": 728,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "stand",
+      "function": "do_stand",
+      "file": "act_move.c",
+      "line": 1841,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "stat",
+      "function": "do_stat",
+      "file": "act_wiz.c",
+      "line": 2166,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "steal",
+      "function": "do_steal",
+      "file": "act_obj.c",
+      "line": 3952,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "story",
+      "function": "do_story",
+      "file": "act_info.c",
+      "line": 1148,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "string",
+      "function": "do_string",
+      "file": "act_wiz.c",
+      "line": 6240,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "swedeslap",
+      "function": "do_swedeslap",
+      "file": "act_wiz.c",
+      "line": 7732,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "sweep",
+      "function": "do_sweep",
+      "file": "dopple.c",
+      "line": 2424,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "switch",
+      "function": "do_switch",
+      "file": "act_wiz.c",
+      "line": 3997,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "take",
+      "function": "do_get",
+      "file": "act_obj.c",
+      "line": 394,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "talents",
+      "function": "do_talents",
+      "file": "dopple.c",
+      "line": 1238,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "teleport",
+      "function": "do_transfer",
+      "file": "act_wiz.c",
+      "line": 1680,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "tell",
+      "function": "do_tell",
+      "file": "act_comm.c",
+      "line": 766,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "terrify",
+      "function": "do_terrify",
+      "file": "skills.c",
+      "line": 1585,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "third",
+      "function": "do_third",
+      "file": "act_obj.c",
+      "line": 4420,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "time",
+      "function": "do_time",
+      "file": "act_info.c",
+      "line": 3804,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "title",
+      "function": "do_title",
+      "file": "act_info.c",
+      "line": 5604,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "tocode",
+      "function": "do_tocode",
+      "file": "todo.c",
+      "line": 267,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "todo",
+      "function": "do_todo",
+      "file": "todo.c",
+      "line": 261,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "totalkills",
+      "function": "do_totalkills",
+      "file": "act_info.c",
+      "line": 5758,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "track",
+      "function": "do_track",
+      "file": "act_info.c",
+      "line": 5186,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "train",
+      "function": "do_train",
+      "file": "act_npc.c",
+      "line": 1998,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "transfer",
+      "function": "do_transfer",
+      "file": "act_wiz.c",
+      "line": 1680,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "trapset",
+      "function": "do_trapset",
+      "file": "skills.c",
+      "line": 2183,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "trash",
+      "function": "do_trash",
+      "file": "dopple.c",
+      "line": 2336,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "trivia",
+      "function": "do_trivia",
+      "file": "trivia.c",
+      "line": 38,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "trust",
+      "function": "do_trust",
+      "file": "act_wiz.c",
+      "line": 4808,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "typo",
+      "function": "do_typo",
+      "file": "todo.c",
+      "line": 304,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "unalias",
+      "function": "do_unalias",
+      "file": "alias.c",
+      "line": 218,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "unlock",
+      "function": "do_unlock",
+      "file": "act_move.c",
+      "line": 1527,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "unread",
+      "function": "do_unread",
+      "file": "note.c",
+      "line": 104,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "up",
+      "function": "do_up",
+      "file": "act_move.c",
+      "line": 850,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "value",
+      "function": "do_value",
+      "file": "act_npc.c",
+      "line": 1150,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "view",
+      "function": "do_view",
+      "file": "act_wiz.c",
+      "line": 10126,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "violate",
+      "function": "do_violate",
+      "file": "act_wiz.c",
+      "line": 2105,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "visible",
+      "function": "do_visible",
+      "file": "act_move.c",
+      "line": 2720,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "vitrify",
+      "function": "do_vitrify",
+      "file": "skills.c",
+      "line": 1932,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "vnum",
+      "function": "do_vnum",
+      "file": "act_wiz.c",
+      "line": 3264,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "vopen",
+      "function": "do_vopen",
+      "file": "olc.c",
+      "line": 901,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wager",
+      "function": "do_wager",
+      "file": "arena.c",
+      "line": 1089,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "wake",
+      "function": "do_wake",
+      "file": "act_move.c",
+      "line": 2328,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "walkin",
+      "function": "do_walkin",
+      "file": "act_info.c",
+      "line": 6252,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "walkout",
+      "function": "do_walkout",
+      "file": "act_info.c",
+      "line": 6307,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "war",
+      "function": "do_war",
+      "file": "war2.c",
+      "line": 26,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "warn",
+      "function": "do_warn",
+      "file": "act_wiz.c",
+      "line": 8614,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wartalk",
+      "function": "do_wartalk",
+      "file": "war2.c",
+      "line": 501,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "wear",
+      "function": "do_wear",
+      "file": "act_obj.c",
+      "line": 3201,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "weather",
+      "function": "do_weather",
+      "file": "act_info.c",
+      "line": 3840,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "weave",
+      "function": "do_weave",
+      "file": "skills.c",
+      "line": 2654,
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "wecho",
+      "function": "do_wecho",
+      "file": "act_wiz.c",
+      "line": 1460,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wedpost",
+      "function": "do_wedpost",
+      "file": "act_wiz.c",
+      "line": 1813,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "west",
+      "function": "do_west",
+      "file": "act_move.c",
+      "line": 833,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "where",
+      "function": "do_where",
+      "file": "act_info.c",
+      "line": 5083,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "whittle",
+      "function": "do_whittle",
+      "file": "skills.c",
+      "line": 1717,
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "who",
+      "function": "do_who",
+      "file": "act_info.c",
+      "line": 4322,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "whois",
+      "function": "do_whois",
+      "file": "act_info.c",
+      "line": 3992,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wield",
+      "function": "do_wear",
+      "file": "act_obj.c",
+      "line": 3201,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "wimpy",
+      "function": "do_wimpy",
+      "file": "act_info.c",
+      "line": 5775,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wipe",
+      "function": "do_wipe",
+      "file": "act_wiz.c",
+      "line": 1229,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "withdraw",
+      "function": "do_withdraw",
+      "file": "act_npc.c",
+      "line": 1527,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "wizhelp",
+      "function": "do_wizhelp",
+      "file": "interp.c",
+      "line": 1069,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wizinvis",
+      "function": "do_invis",
+      "file": "act_wiz.c",
+      "line": 7404,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wizlock",
+      "function": "do_wizlock",
+      "file": "act_wiz.c",
+      "line": 5460,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wiznet",
+      "function": "do_wiznet",
+      "file": "act_wiz.c",
+      "line": 635,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "wizslap",
+      "function": "do_wizslap",
+      "file": "act_wiz.c",
+      "line": 7794,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "worth",
+      "function": "do_worth",
+      "file": "act_info.c",
+      "line": 2224,
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "yell",
+      "function": "do_yell",
+      "file": "act_comm.c",
+      "line": 1107,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "zap",
+      "function": "do_zap",
+      "file": "act_obj.c",
+      "line": 3846,
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "zecho",
+      "function": "do_zecho",
+      "file": "act_wiz.c",
+      "line": 1512,
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "zwho",
+      "function": "do_zwho",
+      "file": "act_info.c",
+      "line": 4715,
+      "trust": "POS_DEAD"
+    }
+  ],
+  "wired_missing": [
+    {
+      "command": "ambush",
+      "function": "do_ambush",
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "assassinate",
+      "function": "do_assassinate",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "aura",
+      "function": "do_aura",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "backstab",
+      "function": "do_backstab",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "bash",
+      "function": "do_bash",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "bastion",
+      "function": "do_bastion",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "battlehymn",
+      "function": "do_battlehymn",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "berserk",
+      "function": "do_berserk",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "biomanipulation",
+      "function": "do_biomanipulation",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "blackjack",
+      "function": "do_blackjack",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "bloodlust",
+      "function": "do_bloodlust",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "breath",
+      "function": "do_breath",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "bs",
+      "function": "do_backstab",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "caltrops",
+      "function": "do_caltrops",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "charge",
+      "function": "do_charge",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "chi",
+      "function": "do_chi",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "circle",
+      "function": "do_circle",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "cleanse",
+      "function": "do_cleanse",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "cleave",
+      "function": "do_cleave",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "concentration",
+      "function": "do_concentration",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "consent",
+      "function": "do_consent",
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "copyover",
+      "function": "do_copyover",
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "dance",
+      "function": "do_dance",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "deepbreathing",
+      "function": "do_deepbreathing",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "dhammer",
+      "function": "do_dhammer",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "dirt",
+      "function": "do_dirt",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "disarm",
+      "function": "do_disarm",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "dislodge",
+      "function": "do_dislodge",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "eadbutt",
+      "function": "do_eadbutt",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "earthbind",
+      "function": "do_earthbind",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "electrokinesis",
+      "function": "do_electrokinesis",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "feed",
+      "function": "do_feed",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "flee",
+      "function": "do_flee",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "forge",
+      "function": "do_forge",
+      "trust": "POS_SLEEPING"
+    },
+    {
+      "command": "garotte",
+      "function": "do_garotte",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "gash",
+      "function": "do_gash",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "gore",
+      "function": "do_gore",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "gouge",
+      "function": "do_gouge",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "hack",
+      "function": "do_hack",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "hit",
+      "function": "do_kill",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "htouch",
+      "function": "do_healing_touch",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "hurl",
+      "function": "do_hurl",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "ironwill",
+      "function": "do_ironwill",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "jab",
+      "function": "do_jab",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "katana",
+      "function": "do_katana",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "kick",
+      "function": "do_kick",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "kill",
+      "function": "do_kill",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "legsweep",
+      "function": "do_legsweep",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "mock",
+      "function": "do_mock",
+      "trust": "POS_RESTING"
+    },
+    {
+      "command": "pinch",
+      "function": "do_pinch",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "plantroots",
+      "function": "do_plantroots",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "powerblind",
+      "function": "do_powerblind",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "powerinvuln",
+      "function": "do_powerinvuln",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "powersilence",
+      "function": "do_powersilence",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "powerstun",
+      "function": "do_powerstun",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "psycho",
+      "function": "do_psycho",
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "pyrokinesis",
+      "function": "do_pyrokinesis",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "quickening",
+      "function": "do_quickening",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "rescue",
+      "function": "do_rescue",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "resistance",
+      "function": "do_resistance",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "roundhouse",
+      "function": "do_roundhouse",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "rub",
+      "function": "do_rub",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "scream",
+      "function": "do_scream",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "shuriken",
+      "function": "do_shuriken",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "smash",
+      "function": "do_shield_smash",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "spellbane",
+      "function": "do_spellbane",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "stance",
+      "function": "do_stance",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "stomp",
+      "function": "do_stomp",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "storm",
+      "function": "do_storm",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "strangle",
+      "function": "do_strangle",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "strike",
+      "function": "do_strike",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "target",
+      "function": "do_target",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "telekinesis",
+      "function": "do_telekinesis",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "throw",
+      "function": "do_throw",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "transfix",
+      "function": "do_transfix",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "trip",
+      "function": "do_trip",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "voodoo",
+      "function": "do_voodoo",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "warcry",
+      "function": "do_warcry",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "warpaint",
+      "function": "do_warpaint",
+      "trust": "POS_STANDING"
+    },
+    {
+      "command": "whirlwind",
+      "function": "do_whirlwind",
+      "trust": "POS_FIGHTING"
+    },
+    {
+      "command": "wizlist",
+      "function": "do_wizlist",
+      "trust": "POS_DEAD"
+    },
+    {
+      "command": "xsocials",
+      "function": "do_xsocials",
+      "trust": "POS_DEAD"
+    }
+  ]
+}

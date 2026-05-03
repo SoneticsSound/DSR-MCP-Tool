@@ -30,6 +30,27 @@ MCP_SCRIPT   = SCRIPTS_DIR / "dsr_mcp.py"
 CLAUDE_CONFIG = Path(os.environ.get("APPDATA", "")) / "Claude" / "claude_desktop_config.json"
 
 
+def _detect_project_root():
+    """
+    Auto-detect a likely DSR project root by looking for docs/code_handoff.json
+    in common locations. Returns the matching path, or None if nothing found.
+
+    Candidates checked in order:
+      - ~/ds/                                        (Linux/WSL home)
+      - /mnt/c/Users/danbl/Documents/Claude DS/code-sync/  (Windows mount)
+      - ../code-sync/  relative to the MCP-Tool dir   (sibling install)
+    """
+    candidates = [
+        os.path.expanduser("~/ds"),
+        "/mnt/c/Users/danbl/Documents/Claude DS/code-sync",
+        os.path.join(os.path.dirname(SCRIPTS_DIR), "..", "code-sync"),
+    ]
+    for c in candidates:
+        if os.path.exists(os.path.join(c, "docs", "code_handoff.json")):
+            return os.path.abspath(c)
+    return None
+
+
 def install_mcp_package():
     """Install the mcp package if not already present."""
     try:
@@ -69,11 +90,26 @@ def register_server():
     # Ensure mcpServers key exists
     config.setdefault("mcpServers", {})
 
+    # Detect a sensible DSR_PROJECT_ROOT — the live project tree the MCP should
+    # read state from. Briefing/queries pull bugs.json/ideas.json/etc. from
+    # there instead of the MCP-Tool's own (typically stale) local copies.
+    # Override at install time:  DSR_PROJECT_ROOT=/path/to/project python install_mcp.py
+    project_root = os.environ.get("DSR_PROJECT_ROOT") or _detect_project_root()
+
+    server_env = {}
+    if project_root:
+        server_env["DSR_PROJECT_ROOT"] = project_root
+        print(f"  DSR_PROJECT_ROOT = {project_root}")
+    else:
+        print("  DSR_PROJECT_ROOT not set — MCP will use its own dir for state")
+        print("    (briefing will reflect MCP-Tool's local .md files, not your")
+        print("     live project. Set DSR_PROJECT_ROOT and re-run to fix.)")
+
     # Add / overwrite the dsr entry
     config["mcpServers"]["dsr"] = {
         "command": sys.executable,   # whichever python ran this script (python / python3 / py)
         "args": [str(MCP_SCRIPT)],
-        "env": {}
+        "env": server_env
     }
 
     with open(CLAUDE_CONFIG, "w", encoding="utf-8") as f:

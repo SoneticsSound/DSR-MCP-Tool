@@ -23,9 +23,113 @@ from .scan_source import build_full_index
 
 # ── Briefing ──────────────────────────────────────────────────────────────────
 
+def _load_json(primary_path):
+    """
+    Load a JSON file; return None if missing or unparseable.
+
+    Tries the primary path first, then a `docs/` sibling (e.g. ROOT/bugs.json
+    then ROOT/docs/bugs.json). The user's project keeps these files in docs/
+    while the MCP-Tool's own tree historically holds them at ROOT — checking
+    both makes config robust to either layout.
+    """
+    candidates = [primary_path]
+    head, tail = os.path.split(primary_path)
+    candidates.append(os.path.join(head, "docs", tail))
+    for path in candidates:
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+    return None
+
+
+def _bugs_from_json(data):
+    """
+    Map bugs.json schema → (open_bugs, staged_bugs) lists.
+
+    Schema (2026-05-02): {"open": [{id, title, severity, status, ...}, ...],
+                          "resolved": [...]}
+
+    "Staged" bugs are those whose status is 'fix-staged' or starts with 'staged'
+    (treated as needing Kyle QA — same semantic as the old .md parser).
+    """
+    open_list   = data.get("open", []) if isinstance(data, dict) else []
+    open_bugs   = []
+    staged_bugs = []
+    for b in open_list:
+        if not isinstance(b, dict):
+            continue
+        status = (b.get("status") or "").lower()
+        entry = {
+            "id":       b.get("id", "?"),
+            "title":    b.get("title", b.get("note", "")),
+            "severity": b.get("severity", "?"),
+        }
+        if "staged" in status:
+            staged_bugs.append(entry)
+        else:
+            open_bugs.append(entry)
+    return open_bugs, staged_bugs
+
+
+def _ideas_from_json(data, top_n=5):
+    """
+    Map ideas.json schema → (open_count, planned_count, top_ideas).
+
+    Schema: {"open": [...], "wontfix": [...], "done": [...]}
+    "Planned" = open ideas tagged status='planned' (or fall back to count of all open).
+    "top_ideas" = first N open by date_proposed descending (or list order if no date).
+    """
+    if not isinstance(data, dict):
+        return 0, 0, []
+    open_list = data.get("open", [])
+    open_count = len(open_list)
+    planned_count = sum(
+        1 for i in open_list
+        if isinstance(i, dict) and (i.get("status") or "").lower() == "planned"
+    )
+    # Sort by date_proposed desc when available; stable for items missing the field.
+    sortable = [i for i in open_list if isinstance(i, dict)]
+    sortable.sort(key=lambda i: i.get("date_proposed", ""), reverse=True)
+    top_ideas = [
+        {"id": i.get("id", "?"), "title": i.get("title", "")}
+        for i in sortable[:top_n]
+    ]
+    return open_count, planned_count, top_ideas
+
+
+def _handoff_from_json(data):
+    """
+    Map code_handoff.json schema → (blockers, questions).
+
+    Schema: {"queue_for_cowork": [str, ...], "open_questions": [{id, question, blocking}, ...]}
+    Blockers = open_questions with blocking=True (queue_for_cowork is informational, not blocking).
+    Questions = all open_questions text.
+    """
+    if not isinstance(data, dict):
+        return [], []
+    blockers  = []
+    questions = []
+    for q in data.get("open_questions", []):
+        if not isinstance(q, dict):
+            continue
+        text = f"{q.get('id', '?')}: {q.get('question', '')}"
+        questions.append(text)
+        if q.get("blocking"):
+            blockers.append(text)
+    return blockers, questions
+
+
 def briefing(write=True):
     """
-    Generate the session briefing from all project .md files.
+    Generate the session briefing.
+
+    Prefers structured JSON sources (bugs.json / ideas.json / code_handoff.json,
+    introduced 2026-05-02). Falls back to the legacy .md parsers if JSON is
+    missing or unparseable, so the briefing still works on older trees.
 
     Args:
         write: if True, writes to config.BRIEFING_MD
@@ -33,17 +137,38 @@ def briefing(write=True):
     Returns:
         Generated markdown string.
     """
-    bugs_text      = read_file(config.BUGS_MD)
-    ideas_text     = read_file(config.IDEAS_MD)
-    decisions_text = read_file(config.DECISIONS_MD)
-    handoff_text   = read_file(config.HANDOFF_MD)
-    changelog_text = read_file(config.CHANGELOG_MD)
+    # ── Bugs (JSON-preferred) ─────────────────────────────────────────────
+    bugs_json = _load_json(config.BUGS_JSON)
+    if bugs_json is not None:
+        open_bugs, staged_bugs = _bugs_from_json(bugs_json)
+    else:
+        open_bugs, staged_bugs = parse_bugs(read_file(config.BUGS_MD))
 
-    open_bugs,  staged_bugs             = parse_bugs(bugs_text)
-    open_count, planned_count, top_ideas = parse_ideas(ideas_text)
-    recent_decisions                     = parse_decisions(decisions_text)
-    blockers,   questions                = parse_handoff(handoff_text)
-    build_ver                            = parse_build_version(changelog_text)
+    # ── Ideas (JSON-preferred) ────────────────────────────────────────────
+    ideas_json = _load_json(config.IDEAS_JSON)
+    if ideas_json is not None:
+        open_count, planned_count, top_ideas = _ideas_from_json(ideas_json)
+    else:
+        open_count, planned_count, top_ideas = parse_ideas(read_file(config.IDEAS_MD))
+
+    # ── Handoff blockers / questions (JSON-preferred) ─────────────────────
+    handoff_json = _load_json(config.CODE_HANDOFF_JSON)
+    if handoff_json is not None:
+        blockers, questions = _handoff_from_json(handoff_json)
+        # build_ver also lives in JSON build state — prefer it, fall back below
+        build_ver = (handoff_json.get("build", {}) or {}).get("live_version")
+    else:
+        blockers, questions = parse_handoff(read_file(config.HANDOFF_MD))
+        build_ver = None
+
+    # ── Decisions (still .md — DECISIONS.md hasn't been migrated to JSON) ─
+    decisions_text   = read_file(config.DECISIONS_MD)
+    recent_decisions = parse_decisions(decisions_text)
+
+    # ── Build version: prefer JSON, fall back to changelog parser ─────────
+    if not build_ver:
+        changelog_text = read_file(config.CHANGELOG_MD)
+        build_ver      = parse_build_version(changelog_text)
 
     lines = [
         f"# DS:R Session Briefing — {date.today()}",

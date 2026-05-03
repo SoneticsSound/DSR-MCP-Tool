@@ -258,6 +258,180 @@ def refresh_index() -> str:
     )
 
 
+# ── gsn database ──────────────────────────────────────────────────────────────
+
+_gsn_db_cache: dict | None = None
+
+
+def _load_gsn_db() -> dict:
+    """
+    Load the gsn database (built by scripts/build_gsn_db.py).
+
+    Tries <ROOT>/docs/gsn_db.json first (the user's project layout when
+    DSR_PROJECT_ROOT is set), then <ROOT>/gsn_db.json (MCP-Tool's
+    historical root layout). Cached after first successful load.
+
+    Returns {"meta": {...}, "gsns": {gsn_name: {...}}} or {} if missing.
+    """
+    global _gsn_db_cache
+    if _gsn_db_cache is not None:
+        return _gsn_db_cache
+
+    candidates = [
+        Path(config.ROOT) / "docs" / "gsn_db.json",
+        Path(config.ROOT) / "gsn_db.json",
+    ]
+    for path in candidates:
+        if path.exists():
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    _gsn_db_cache = json.load(f)
+                    return _gsn_db_cache
+            except (OSError, json.JSONDecodeError):
+                continue
+    _gsn_db_cache = {}
+    return _gsn_db_cache
+
+
+def _format_gsn_entry(symbol: str, entry: dict) -> str:
+    """Pretty-print one gsn_db entry to a single multi-line block."""
+    skill   = entry.get("skill_name", "?")
+    addr    = entry.get("address",    "?")
+    refs    = entry.get("referenced_in", []) or []
+    helpkey = entry.get("help_entry")
+    words   = entry.get("help_words", 0) or 0
+
+    lines = [
+        f"  {symbol}",
+        f"    skill:    {skill}",
+        f"    address:  {addr}",
+    ]
+    if helpkey:
+        lines.append(f"    helpfile: {helpkey}  ({words} words)")
+    else:
+        lines.append(f"    helpfile: ⚠ MISSING  (0 words)")
+    if refs:
+        lines.append(f"    refs:     {', '.join(refs)}")
+    else:
+        lines.append(f"    refs:     —")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def query_gsn(name: str = "", missing: bool = False, refs: str = "") -> str:
+    """
+    Query the gsn (global skill number) database.
+
+    The gsn database is the rosetta stone for DS binary archaeology —
+    it cross-references every gsn_* symbol in the live binary against
+    its skill name, every .c file that touches it, and its helpfile
+    entry (if one exists). Lets you map "what skill does this do_*
+    function touch" and "what code touches this gsn" in one query.
+
+    Three modes (use exactly one):
+
+    1. **By name** — query_gsn(name="hack")
+       Looks up a single gsn by skill name, gsn_<name>, or do_<name>.
+       Returns its address, skill name, source files that reference it,
+       and helpfile entry. Substring-match: query_gsn(name="aura") will
+       return all gsn_aura_of_*.
+
+    2. **--missing** — query_gsn(missing=True)
+       Lists every gsn with no helpfile entry. Gap report for Cowork
+       to know which skills need helpfile authoring.
+
+    3. **--refs <file>** — query_gsn(refs="update.c")
+       Lists every gsn referenced anywhere in a .c file. Substring
+       match (e.g. refs="update" hits update.c too). Useful for "what
+       skills does the per-tick handler touch" research.
+
+    Returns a formatted multi-entry summary, or a "no gsns found"
+    message. Run scripts/build_gsn_db.py to refresh the underlying
+    database after adding new gsns.
+    """
+    db = _load_gsn_db()
+    gsns = db.get("gsns", {})
+
+    if not gsns:
+        return ("gsn_db.json not found or empty. Run "
+                "`python3 scripts/build_gsn_db.py` against the project "
+                "to populate it.")
+
+    # Mode dispatch — only one of {name, missing, refs} should be set.
+    used_modes = sum(1 for v in (bool(name), missing, bool(refs)) if v)
+    if used_modes > 1:
+        return ("Pick one mode: name=, missing=True, OR refs=. "
+                "Combining modes is not supported.")
+
+    # Mode 3: --refs <file>
+    if refs:
+        needle  = refs.lower()
+        matches = []
+        for sym, entry in gsns.items():
+            for ref in entry.get("referenced_in", []) or []:
+                if needle in ref.lower():
+                    matches.append((sym, entry))
+                    break
+        matches.sort(key=lambda p: p[0])
+        if not matches:
+            return f"  0 gsns referenced in files matching '{refs}'."
+        out = [f"  {len(matches)} gsns referenced in files matching '{refs}':", ""]
+        for sym, entry in matches[:80]:
+            out.append(_format_gsn_entry(sym, entry))
+            out.append("")
+        if len(matches) > 80:
+            out.append(f"  …and {len(matches) - 80} more.")
+        return "\n".join(out)
+
+    # Mode 2: --missing
+    if missing:
+        gaps = sorted(
+            sym for sym, entry in gsns.items()
+            if not entry.get("help_entry")
+        )
+        if not gaps:
+            return "  All gsns have helpfile entries. Nothing missing."
+        head = f"  {len(gaps)} gsns with no helpfile entry."
+        # Paginate — 60 per call to avoid token blowup
+        return head + "\n  " + ", ".join(gaps[:60]) + (
+            f"\n  …and {len(gaps) - 60} more." if len(gaps) > 60 else ""
+        )
+
+    # Mode 1: name lookup
+    if not name:
+        return ("Specify a mode: name=<skill>, missing=True, OR refs=<file>. "
+                "See `query_gsn` docstring for details.")
+
+    needle = name.lower().strip()
+    # Strip "do_" if user passed a function name
+    if needle.startswith("do_"):
+        needle = needle[3:]
+    # Try exact gsn_<needle> first
+    exact = f"gsn_{needle.replace(' ', '_')}"
+
+    matches = []
+    if exact in gsns:
+        matches.append((exact, gsns[exact]))
+    # Then substring search (skip the exact match we already added)
+    for sym, entry in gsns.items():
+        if sym == exact:
+            continue
+        skill_name = (entry.get("skill_name") or "").lower()
+        if needle in sym.lower() or needle in skill_name:
+            matches.append((sym, entry))
+
+    if not matches:
+        return f"  No gsns found matching '{name}'."
+
+    out = [f"  {len(matches)} gsn(s) found:", ""]
+    for sym, entry in matches[:25]:
+        out.append(_format_gsn_entry(sym, entry))
+        out.append("")
+    if len(matches) > 25:
+        out.append(f"  …and {len(matches) - 25} more (refine the query).")
+    return "\n".join(out)
+
+
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":

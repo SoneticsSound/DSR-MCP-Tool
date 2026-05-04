@@ -432,6 +432,162 @@ def query_gsn(name: str = "", missing: bool = False, refs: str = "") -> str:
     return "\n".join(out)
 
 
+# ── helpfile database ─────────────────────────────────────────────────────────
+
+_help_db_cache: dict | None = None
+
+
+def _load_help_db() -> dict:
+    """
+    Load the helpfile database (built by scripts/build_help_db.py).
+
+    Tries <ROOT>/docs/help_db.json first then <ROOT>/help_db.json.
+    Cached after first successful load.
+
+    Returns {"meta": {...}, "helps": {keyword: {...}}} or {} if missing.
+    """
+    global _help_db_cache
+    if _help_db_cache is not None:
+        return _help_db_cache
+
+    candidates = [
+        Path(config.ROOT) / "docs" / "help_db.json",
+        Path(config.ROOT) / "help_db.json",
+    ]
+    for path in candidates:
+        if path.exists():
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    _help_db_cache = json.load(f)
+                    return _help_db_cache
+            except (OSError, json.JSONDecodeError):
+                continue
+    _help_db_cache = {}
+    return _help_db_cache
+
+
+def _format_help_entry(key: str, entry: dict, full: bool = False) -> str:
+    """Pretty-print one help_db entry. full=True returns the body verbatim."""
+    keywords = entry.get("all_keywords") or [entry.get("primary_keyword", key)]
+    words    = entry.get("word_count", 0)
+    source   = entry.get("source", "?")
+    text     = entry.get("text", "") or ""
+
+    lines = [
+        f"  [{key}]",
+        f"      keywords: {' | '.join(keywords)}",
+        f"      words:    {words}",
+        f"      source:   {source}",
+        f"      ─────────────────────────────────────",
+    ]
+    body = text if full else (text[:300] + ("…" if len(text) > 300 else ""))
+    for ln in body.splitlines():
+        lines.append(f"      {ln}")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def query_helpfile(term: str = "", full: bool = False) -> str:
+    """
+    Query the helpfile database — find helpfile entries by keyword or
+    body-text substring.
+
+    The helpfile database is built by scripts/build_help_db.py from
+    every #HELPS section across area/*.are, data/area/*.are,
+    data/misc/*.are, and data/misc/*.mhp. Cross-referenced with
+    gsn_db.json so spells/skills find their helpfile by SKILL_<NAME> or
+    SPELL_<NAME> automatic key lookup.
+
+    Args:
+        term: Keyword (case-insensitive), or substring to match in
+              the entry's text body. Examples:
+                term="hack"        → finds SKILL_HACK, etc.
+                term="continual"   → finds SPELL_CONTINUAL_LIGHT
+                term="treant"      → finds RACE_TREANT
+                term="vital"       → finds SKILL_VITAL_STRIKE
+                term=""            → returns the gap-list summary
+                                     (count of unkeyed helpfiles).
+        full: True returns the entry body verbatim (default False:
+              first 300 chars per match).
+
+    Returns a formatted multi-entry summary, or a "no helpfiles found"
+    message. Entries match in the order: exact key, prefix-of-key,
+    keyword-contains, then body-text-contains. Caps at 25 results
+    (refine the term to narrow further).
+    """
+    db = _load_help_db()
+    helps = db.get("helps", {})
+
+    if not helps:
+        return ("help_db.json not found or empty. Run "
+                "`python3 build_help_db.py --area ~/ds/Resurrected/area/ "
+                "--pretty` against the project to populate it.")
+
+    # Empty term — return summary
+    if not term:
+        meta = db.get("meta", {})
+        return (
+            f"  help_db summary: {len(helps)} entries\n"
+            f"  source files: {meta.get('source_files', meta.get('total_helps', '?'))}\n"
+            f"  Pass term=<keyword> to query, or term=<substring> to search "
+            f"keyword AND body text."
+        )
+
+    needle = term.lower().strip()
+
+    # Search in priority order: exact key, prefix, keyword-contains,
+    # body-contains. Dedupe across categories.
+    seen    = set()
+    matches = []
+
+    # 1. Exact key (case-insensitive)
+    for k in helps:
+        if k.lower() == needle and k not in seen:
+            matches.append((k, helps[k])); seen.add(k)
+
+    # 2. SKILL_<NEEDLE> / SPELL_<NEEDLE> shorthand
+    for prefix in ("SKILL_", "SPELL_", "RACE_", "CLASS_"):
+        candidate = (prefix + needle.upper().replace(" ", "_")).strip()
+        if candidate in helps and candidate not in seen:
+            matches.append((candidate, helps[candidate])); seen.add(candidate)
+
+    # 3. Substring of key (excluding what we already matched)
+    for k in helps:
+        if k in seen:
+            continue
+        if needle in k.lower():
+            matches.append((k, helps[k])); seen.add(k)
+
+    # 4. Substring in keywords list (for compound-keyword entries)
+    for k, v in helps.items():
+        if k in seen:
+            continue
+        kws = v.get("all_keywords") or []
+        if any(needle in str(kw).lower() for kw in kws):
+            matches.append((k, v)); seen.add(k)
+
+    # 5. Substring in body text — only if we have <5 hits so far
+    #    (body search is slow + noisy)
+    if len(matches) < 5:
+        for k, v in helps.items():
+            if k in seen:
+                continue
+            body = (v.get("text") or "").lower()
+            if needle in body:
+                matches.append((k, v)); seen.add(k)
+
+    if not matches:
+        return f"  No helpfiles found matching '{term}'."
+
+    out = [f"  {len(matches)} helpfile(s) found:", ""]
+    for k, v in matches[:25]:
+        out.append(_format_help_entry(k, v, full=full))
+        out.append("")
+    if len(matches) > 25:
+        out.append(f"  …and {len(matches) - 25} more (refine the term).")
+    return "\n".join(out)
+
+
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
